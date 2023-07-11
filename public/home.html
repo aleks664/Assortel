@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="">
+    <meta name="msapplication-TileImage" content="./images/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="./images/favicons/browserconfig.xml">
+    <title>Двигайся вперёд Panther Energy</title>
+    <link rel="shortcut icon" href="/images/favicons/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="./images/favicons/favicon-48x48.png">
+    <link rel="manifest" href="/images/favicons/manifest.json">
+    <link rel="apple-touch-icon" sizes="57x57" href="./images/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./images/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./images/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./images/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./images/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./images/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./images/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./images/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="./images/favicons/apple-touch-icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicons/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="1024x1024" href="./images/favicons/apple-touch-icon-1024x1024.png">
+    <link rel="icon" type="image/png" sizes="228x228" href="./images/favicons/coast-228x228.png">
+    <link rel="yandex-tableau-widget" href="./images/favicons/yandex-browser-manifest.json">
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+  <body>
+    <header class="s-header">
+      <picture>
+        <source srcset="images/header.webp 1x, images/header@2x.webp 2x" type="image/webp"/>
+        <source srcset="images/header.png 1x, images/header@2x.png 2x" type="image/jpeg"/><img class="bg" src="images/header.webp" srcset="images/header.png 1x, images/header@2x.png 2x" alt="Название картинки" loading="lazy"/>
+      </picture>
+      <div class="container">
+        <button class="burger" type="button" id="burger"><span></span></button>
+        <div class="logo">
+          <picture>
+            <source srcset="images/logo.webp 1x, images/logo@2x.webp 2x" type="image/webp"/>
+            <source srcset="images/logo.png 1x, images/logo@2x.png 2x" type="image/jpeg"/><img src="images/logo.webp" srcset="images/logo.png 1x, images/logo@2x.png 2x" alt="Название картинки" loading="lazy"/>
+          </picture>
+        </div>
+        <nav id="menu">
+          <ul>
+            <li><a class="lnk js-anchore" href="#"> Овощи</a></li>
+            <li><a class="lnk js-anchore" href="#">Фрукты</a></li>
+            <li><a class="btn" href="#">Где купить?</a></li>
+          </ul>
+        </nav>
+        <div class="languages">
+          <div class="head"><span>RU</span>
+            <svg class="icon icon-angle-down">
+              <use xlink:href="./images/sprite.svg#angle-down"></use>
+            </svg>
+          </div>
+          <div class="dropdown">
+            <div class="itm"><a href="#">En</a></div>
+            <div class="itm"><a href="#">De</a></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="l-main">
+    </main>
+    <footer class="s-footer">
+      <picture>
+        <source srcset="images/footer-bg.webp 1x, images/footer-bg@2x.webp 2x" type="image/webp"/>
+        <source srcset="images/footer-bg.png 1x, images/footer-bg@2x.png 2x" type="image/jpeg"/><img class="bg" src="images/footer-bg.webp" srcset="images/footer-bg.png 1x, images/footer-bg@2x.png 2x" alt="Название картинки" loading="lazy"/>
+      </picture>
+      <div class="container">
+        <div class="logo">
+          <picture>
+            <source srcset="images/logo-white.webp 1x, images/logo-white@2x.webp 2x" type="image/webp"/>
+            <source srcset="images/logo-white.png 1x, images/logo-white@2x.png 2x" type="image/jpeg"/><img src="images/logo-white.webp" srcset="images/logo-white.png 1x, images/logo-white@2x.png 2x" alt="logo" loading="lazy"/>
+          </picture>
+        </div><a class="buy" href="#">Где купить</a>
+        <div class="policy"><a href="#popup1" data-fancybox>Правила пользования</a><br>и <a href="#popup2" data-fancybox>политика конфиденциальности</a>
+        </div>
+        <div class="copy">Assortel.ru<br>Все права защищены
+          2023
+        </div>
+      </div>
+    </footer>
+    <div class="popup" id="popup1">
+      <h2>title</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab distinctio ex harum iste nemo nostrum pariatur quae quaerat quisquam, quo similique suscipit tempore veniam, vitae voluptate? Earum fuga similique sunt!</p>
+      <p>Alias amet consequuntur deserunt eos eum fugit, illo, incidunt ipsa molestias optio quam qui quos repudiandae sed tempore unde velit voluptate? Corporis cupiditate dolorum hic iusto pariatur possimus, quasi tenetur?</p>
+      <p>Aliquid aspernatur culpa dolores eaque est expedita fuga in laborum libero mollitia necessitatibus nemo nesciunt numquam odio perferendis placeat, provident quas quo sapiente tenetur. Aperiam consequatur libero odit ratione recusandae.</p>
+      <p>Consequatur debitis deleniti, est ipsa laboriosam obcaecati quibusdam ratione reprehenderit. Consectetur cupiditate distinctio ducimus, exercitationem fugit nam necessitatibus nemo, odio quia quos rem, ullam unde. Ducimus harum totam unde voluptatem.</p>
+      <p>Alias corporis deleniti enim incidunt natus placeat quae veritatis voluptatum? Accusantium aspernatur aut autem consectetur, corporis doloribus ea eum illo labore libero magni maxime modi nulla pariatur qui unde vel.</p>
+      <h2>title</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab distinctio ex harum iste nemo nostrum pariatur quae quaerat quisquam, quo similique suscipit tempore veniam, vitae voluptate? Earum fuga similique sunt!</p>
+      <p>Alias amet consequuntur deserunt eos eum fugit, illo, incidunt ipsa molestias optio quam qui quos repudiandae sed tempore unde velit voluptate? Corporis cupiditate dolorum hic iusto pariatur possimus, quasi tenetur?</p>
+      <p>Aliquid aspernatur culpa dolores eaque est expedita fuga in laborum libero mollitia necessitatibus nemo nesciunt numquam odio perferendis placeat, provident quas quo sapiente tenetur. Aperiam consequatur libero odit ratione recusandae.</p>
+      <p>Consequatur debitis deleniti, est ipsa laboriosam obcaecati quibusdam ratione reprehenderit. Consectetur cupiditate distinctio ducimus, exercitationem fugit nam necessitatibus nemo, odio quia quos rem, ullam unde. Ducimus harum totam unde voluptatem.</p>
+      <p>Alias corporis deleniti enim incidunt natus placeat quae veritatis voluptatum? Accusantium aspernatur aut autem consectetur, corporis doloribus ea eum illo labore libero magni maxime modi nulla pariatur qui unde vel.</p>
+    </div>
+    <div class="popup" id="popup2">
+      <h2>title</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab distinctio ex harum iste nemo nostrum pariatur quae quaerat quisquam, quo similique suscipit tempore veniam, vitae voluptate? Earum fuga similique sunt!</p>
+      <p>Alias amet consequuntur deserunt eos eum fugit, illo, incidunt ipsa molestias optio quam qui quos repudiandae sed tempore unde velit voluptate? Corporis cupiditate dolorum hic iusto pariatur possimus, quasi tenetur?</p>
+      <p>Aliquid aspernatur culpa dolores eaque est expedita fuga in laborum libero mollitia necessitatibus nemo nesciunt numquam odio perferendis placeat, provident quas quo sapiente tenetur. Aperiam consequatur libero odit ratione recusandae.</p>
+      <p>Consequatur debitis deleniti, est ipsa laboriosam obcaecati quibusdam ratione reprehenderit. Consectetur cupiditate distinctio ducimus, exercitationem fugit nam necessitatibus nemo, odio quia quos rem, ullam unde. Ducimus harum totam unde voluptatem.</p>
+      <p>Alias corporis deleniti enim incidunt natus placeat quae veritatis voluptatum? Accusantium aspernatur aut autem consectetur, corporis doloribus ea eum illo labore libero magni maxime modi nulla pariatur qui unde vel.</p>
+      <h2>title</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab distinctio ex harum iste nemo nostrum pariatur quae quaerat quisquam, quo similique suscipit tempore veniam, vitae voluptate? Earum fuga similique sunt!</p>
+      <p>Alias amet consequuntur deserunt eos eum fugit, illo, incidunt ipsa molestias optio quam qui quos repudiandae sed tempore unde velit voluptate? Corporis cupiditate dolorum hic iusto pariatur possimus, quasi tenetur?</p>
+      <p>Aliquid aspernatur culpa dolores eaque est expedita fuga in laborum libero mollitia necessitatibus nemo nesciunt numquam odio perferendis placeat, provident quas quo sapiente tenetur. Aperiam consequatur libero odit ratione recusandae.</p>
+      <p>Consequatur debitis deleniti, est ipsa laboriosam obcaecati quibusdam ratione reprehenderit. Consectetur cupiditate distinctio ducimus, exercitationem fugit nam necessitatibus nemo, odio quia quos rem, ullam unde. Ducimus harum totam unde voluptatem.</p>
+      <p>Alias corporis deleniti enim incidunt natus placeat quae veritatis voluptatum? Accusantium aspernatur aut autem consectetur, corporis doloribus ea eum illo labore libero magni maxime modi nulla pariatur qui unde vel.</p>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

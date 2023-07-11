@@ -1,0 +1,106 @@
+.s-i-container {
+  max-width: 120rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.b-i-dropdown {
+  position: relative;
+  width: 25rem; }
+  .b-i-dropdown__head {
+    border: 0.1rem solid #dcdcde;
+    border-radius: 0.5rem;
+    padding: 1.5rem 2.5rem;
+    cursor: pointer;
+    transition: border-radius 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+  .b-i-dropdown.is-open .b-i-dropdown__head {
+    border-radius: 0.5rem 0.5rem 0 0; }
+  .b-i-dropdown.is-open .b-i-dropdown__icon {
+    transform: rotate(0); }
+  .b-i-dropdown__icon {
+    flex: 0 0 1.8rem;
+    margin-left: 1.5rem;
+    transform: rotate(180deg);
+    transition: transform 0.3s; }
+  .b-i-dropdown__list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #FFF;
+    z-index: 10;
+    border: 0.1rem solid #dcdcde;
+    border-radius: 0 0 0.5rem 0.5rem; }
+  .b-i-dropdown__itm {
+    cursor: pointer;
+    padding: 0.5rem 2.5rem;
+    transition: background-color 0.3s; }
+    .b-i-dropdown__itm:hover, .b-i-dropdown__itm.is-selected {
+      background-color: #dcdcde; }
+
+.b-i-tabs {
+  overflow: hidden;
+  position: relative;
+  border: 0.1rem solid #dcdcde;
+  border-radius: 0.5rem; }
+  .b-i-tabs__tab {
+    transition: opacity 0.3s , visibility 0.3s; }
+    .b-i-tabs__tab:not(.is-active) {
+      visibility: hidden;
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%; }
+  .b-i-tabs__head {
+    padding: 1.5rem 2.5rem;
+    background-color: #fbfafd;
+    border-bottom: 0.1rem solid #dcdcde; }
+  .b-i-tabs__body {
+    padding: 1.5rem 2.5rem; }
+
+code,
+pre {
+  padding: 1rem;
+  background: #F1F3F4;
+  border: 0.1rem solid #CACDD1;
+  text-indent: 0;
+  white-space: pre-wrap;
+  word-break: break-word;
+  border-radius: 0.5rem; }
+
+code {
+  padding: 0 0.3rem; }
+
+.b-i-colors-list {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2rem 1rem; }
+  .b-i-colors-list__itm {
+    text-align: center; }
+  .b-i-colors-list__circle {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+    border: 0.1rem solid;
+    margin-left: auto;
+    margin-right: auto; }
+  .b-i-colors-list__txt {
+    margin-top: 1rem; }
+
+.b-i-icons {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+  text-align: center; }
+  .b-i-icons .icon {
+    font-size: 3.8rem; }
+  .b-i-icons code {
+    display: block;
+    font-size: 1.2rem; }
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="">
+    <meta name="msapplication-TileImage" content="./images/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="./images/favicons/browserconfig.xml">
+    <title>Assortel</title>
+    <link rel="shortcut icon" href="/images/favicons/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="./images/favicons/favicon-48x48.png">
+    <link rel="manifest" href="/images/favicons/manifest.json">
+    <link rel="apple-touch-icon" sizes="57x57" href="./images/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./images/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./images/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./images/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./images/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./images/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./images/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./images/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="./images/favicons/apple-touch-icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicons/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="1024x1024" href="./images/favicons/apple-touch-icon-1024x1024.png">
+    <link rel="icon" type="image/png" sizes="228x228" href="./images/favicons/coast-228x228.png">
+    <link rel="yandex-tableau-widget" href="./images/favicons/yandex-browser-manifest.json">
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+  <body>
+    <header class="s-header">
+      <picture>
+        <source srcset="images/header.webp 1x, images/header@2x.webp 2x" type="image/webp"/>
+        <source srcset="images/header.png 1x, images/header@2x.png 2x" type="image/jpeg"/><img class="bg" src="images/header.webp" srcset="images/header.png 1x, images/header@2x.png 2x" alt="Название картинки" loading="lazy"/>
+      </picture>
+      <div class="container">
+        <button class="burger" type="button" id="burger"><span></span></button>
+        <div class="logo">
+          <picture>
+            <source srcset="images/logo.webp 1x, images/logo@2x.webp 2x" type="image/webp"/>
+            <source srcset="images/logo.png 1x, images/logo@2x.png 2x" type="image/jpeg"/><img src="images/logo.webp" srcset="images/logo.png 1x, images/logo@2x.png 2x" alt="Название картинки" loading="lazy"/>
+          </picture>
+        </div>
+        <nav id="menu">
+          <ul>
+            <li><a class="lnk js-anchore" href="#"> Овощи</a></li>
+            <li><a class="lnk js-anchore" href="#">Фрукты</a></li>
+            <li><a class="btn" href="#">Где купить?</a></li>
+          </ul>
+        </nav>
+        <div class="languages">
+          <div class="head"><span>RU</span>
+            <svg class="icon icon-angle-down">
+              <use xlink:href="./images/sprite.svg#angle-down"></use>
+            </svg>
+          </div>
+          <div class="dropdown">
+            <div class="itm"><a href="#">En</a></div>
+            <div class="itm"><a href="#">De</a></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="l-main">
+      <div class="section section-main">
+        <picture>
+          <source media="(min-width: 992px)" srcset="images/bg-1.webp 1x, images/bg-1@2x.webp 2x" type="image/webp"/>
+          <source media="(max-width: 991px) and (min-width: 768px)" srcset="images/bg-1-m.webp 1x, images/bg-1-m@2x.webp 2x" type="image/webp"/>
+          <source media="(max-width: 767px)" srcset="images/bg-1-s.webp 1x, images/bg-1-s@2x.webp 2x" type="image/webp"/>
+          <source media="(min-width: 992px)" srcset="images/bg-1.png 1x, images/bg-1@2x.png 2x" type="image/jpeg"/>
+          <source media="(max-width: 991px) and (min-width: 768px)" srcset="images/bg-1-m.png 1x, images/bg-1-m@2x.png 2x" type="image/jpeg"/><img class="bg" src="images/bg-1-s.webp" srcset="images/bg-1-s.png 1x, images/bg-1-s@2x.png 2x" alt="Название картинки" loading="lazy"/>
+        </picture>
+        <div class="desc-center">
+          <div class="container"><img src="images/main-banner.svg" loading="loading"></div>
+        </div>
+      </div>
+      <div class="running-line js-marquee">
+        <div class="inner">
+          <ul>
+            <li>качественная продукция</li>
+            <li>отборные фрукты и овощи</li>
+            <li>натурально и полезно</li>
+            <li>качественная продукция</li>
+            <li>отборные фрукты и овощи</li>
+          </ul>
+        </div>
+      </div>
+      <div class="section section-3">
+        <picture>
+          <source media="(min-width: 992px)" srcset="images/bg-3.webp 1x, images/bg-3@2x.webp 2x" type="image/webp"/>
+          <source media="(max-width: 991px) and (min-width: 768px)" srcset="images/bg-3-m.webp 1x, images/bg-3-m@2x.webp 2x" type="image/webp"/>
+          <source media="(max-width: 767px)" srcset="images/bg-3-s.webp 1x, images/bg-3-s@2x.webp 2x" type="image/webp"/>
+          <source media="(min-width: 992px)" srcset="images/bg-3.png 1x, images/bg-3@2x.png 2x" type="image/jpeg"/>
+          <source media="(max-width: 991px) and (min-width: 768px)" srcset="images/bg-3-m.png 1x, images/bg-3-m@2x.png 2x" type="image/jpeg"/><img class="bg" src="images/bg-3-s.webp" srcset="images/bg-3-s.png 1x, images/bg-3-s@2x.png 2x" alt="Название картинки" loading="lazy"/>
+        </picture>
+      </div>
+            <div class="catalog">
+              <div class="container">
+                <div class="title">Овощная консервация</div>
+                <div class="product-carousel">
+                  <div class="swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="card">
+                          <div class="pict">
+                            <picture>
+                              <source srcset="images/img-1.webp 1x, images/img-1@2x.webp 2x" type="image/webp"/>
+                              <source srcset="images/img-1.png 1x, images/img-1@2x.png 2x" type="image/jpeg"/><img src="images/img-1.webp" srcset="images/img-1.png 1x, images/img-1@2x.png 2x" alt="Томаты в собственном &lt;br&gt;соку, 400 г" loading="lazy"/>
+                            </picture>
+                          </div>
+                          <div class="ttl">Томаты в собственном <br>соку, 400 г</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="card">
+                          <div class="pict">
+                            <picture>
+                              <source srcset="images/img-2.webp 1x, images/img-2@2x.webp 2x" type="image/webp"/>
+                              <source srcset="images/img-2.png 1x, images/img-2@2x.png 2x" type="image/jpeg"/><img src="images/img-2.webp" srcset="images/img-2.png 1x, images/img-2@2x.png 2x" alt="Горошек зелёный, &lt;br&gt;300 г" loading="lazy"/>
+                            </picture>
+                          </div>
+                          <div class="ttl">Горошек зелёный, <br>300 г</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="card">
+                          <div class="pict">
+                            <picture>
+                              <source srcset="images/img-3.webp 1x, images/img-3@2x.webp 2x" type="image/webp"/>
+                              <source srcset="images/img-3.png 1x, images/img-3@2x.png 2x" type="image/jpeg"/><img src="images/img-3.webp" srcset="images/img-3.png 1x, images/img-3@2x.png 2x" alt="Кукуруза сахарная, &lt;br&gt;300 г" loading="lazy"/>
+                            </picture>
+                          </div>
+                          <div class="ttl">Кукуруза сахарная, <br>300 г</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="card">
+                          <div class="pict">
+                            <picture>
+                              <source srcset="images/img-4.webp 1x, images/img-4@2x.webp 2x" type="image/webp"/>
+                              <source srcset="images/img-4.png 1x, images/img-4@2x.png 2x" type="image/jpeg"/><img src="images/img-4.webp" srcset="images/img-4.png 1x, images/img-4@2x.png 2x" alt="Горошек зелёный, &lt;br&gt;400 г" loading="lazy"/>
+                            </picture>
+                          </div>
+                          <div class="ttl">Горошек зелёный, <br>400 г</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="card">
+                          <div class="pict">
+                            <picture>
+                              <source srcset="images/img-1.webp 1x, images/img-1@2x.webp 2x" type="image/webp"/>
+                              <source srcset="images/img-1.png 1x, images/img-1@2x.png 2x" type="image/jpeg"/><img src="images/img-1.webp" srcset="images/img-1.png 1x, images/img-1@2x.png 2x" alt="Томаты в собственном &lt;br&gt;соку, 400 г" loading="lazy"/>
+                            </picture>
+                          </div>
+                          <div class="ttl">Томаты в собственном <br>соку, 400 г</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="card">
+                          <div class="pict">
+                            <picture>
+                              <source srcset="images/img-2.webp 1x, images/img-2@2x.webp 2x" type="image/webp"/>
+                              <source srcset="images/img-2.png 1x, images/img-2@2x.png 2x" type="image/jpeg"/><img src="images/img-2.webp" srcset="images/img-2.png 1x, images/img-2@2x.png 2x" alt="Горошек зелёный, &lt;br&gt;300 г" loading="lazy"/>
+                            </picture>
+                          </div>
+                          <div class="ttl">Горошек зелёный, <br>300 г</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="card">
+                          <div class="pict">
+                            <picture>
+                              <source srcset="images/img-3.webp 1x, images/img-3@2x.webp 2x" type="image/webp"/>
+                              <source srcset="images/img-3.png 1x, images/img-3@2x.png 2x" type="image/jpeg"/><img src="images/img-3.webp" srcset="images/img-3.png 1x, images/img-3@2x.png 2x" alt="Кукуруза сахарная, &lt;br&gt;300 г" loading="lazy"/>
+                            </picture>
+                          </div>
+                          <div class="ttl">Кукуруза сахарная, <br>300 г</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="card">
+                          <div class="pict">
+                            <picture>
+                              <source srcset="images/img-4.webp 1x, images/img-4@2x.webp 2x" type="image/webp"/>
+                              <source srcset="images/img-4.png 1x, images/img-4@2x.png 2x" type="image/jpeg"/><img src="images/img-4.webp" srcset="images/img-4.png 1x, images/img-4@2x.png 2x" alt="Горошек зелёный, &lt;br&gt;400 г" loading="lazy"/>
+                            </picture>
+                          </div>
+                          <div class="ttl">Горошек зелёный, <br>400 г</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-button-prev">
+                    <svg class="icon icon-angle-left">
+                      <use xlink:href="./images/sprite.svg#angle-left"></use>
+                    </svg>
+                  </div>
+                  <div class="swiper-button-next">
+                    <svg class="icon icon-angle-right">
+                      <use xlink:href="./images/sprite.svg#angle-right"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+      <div class="section section-4">
+        <picture>
+          <source media="(min-width: 992px)" srcset="images/bg-6.webp 1x, images/bg-6@2x.webp 2x" type="image/webp"/>
+          <source media="(max-width: 991px) and (min-width: 768px)" srcset="images/bg-6-m.webp 1x, images/bg-6-m@2x.webp 2x" type="image/webp"/>
+          <source media="(max-width: 767px)" srcset="images/bg-6-s.webp 1x, images/bg-6-s@2x.webp 2x" type="image/webp"/>
+          <source media="(min-width: 992px)" srcset="images/bg-6.png 1x, images/bg-6@2x.png 2x" type="image/jpeg"/>
+          <source media="(max-width: 991px) and (min-width: 768px)" srcset="images/bg-6-m.png 1x, images/bg-6-m@2x.png 2x" type="image/jpeg"/><img class="bg" src="images/bg-6-s.webp" srcset="images/bg-6-s.png 1x, images/bg-6-s@2x.png 2x" alt="Название картинки" loading="lazy"/>
+        </picture>
+      </div>
+            <div class="catalog color-red">
+              <div class="container">
+                <div class="title">Плодовая консервация</div>
+                <div class="product-carousel">
+                  <div class="swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="card">
+                          <div class="pict">
+                            <picture>
+                              <source srcset="images/img-5.webp 1x, images/img-5@2x.webp 2x" type="image/webp"/>
+                              <source srcset="images/img-5.png 1x, images/img-5@2x.png 2x" type="image/jpeg"/><img src="images/img-5.webp" srcset="images/img-5.png 1x, images/img-5@2x.png 2x" alt="Абрикос протёртый&lt;br&gt;с сахаром, 400 г" loading="lazy"/>
+                            </picture>
+                          </div>
+                          <div class="ttl">Абрикос протёртый<br>с сахаром, 400 г</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="card">
+                          <div class="pict">
+                            <picture>
+                              <source srcset="images/img-6.webp 1x, images/img-6@2x.webp 2x" type="image/webp"/>
+                              <source srcset="images/img-6.png 1x, images/img-6@2x.png 2x" type="image/jpeg"/><img src="images/img-6.webp" srcset="images/img-6.png 1x, images/img-6@2x.png 2x" alt="Земляника протёртая&lt;br&gt;с сахаром, 300 г" loading="lazy"/>
+                            </picture>
+                          </div>
+                          <div class="ttl">Земляника протёртая<br>с сахаром, 300 г</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="card">
+                          <div class="pict">
+                            <picture>
+                              <source srcset="images/img-7.webp 1x, images/img-7@2x.webp 2x" type="image/webp"/>
+                              <source srcset="images/img-7.png 1x, images/img-7@2x.png 2x" type="image/jpeg"/><img src="images/img-7.webp" srcset="images/img-7.png 1x, images/img-7@2x.png 2x" alt="Чёрная смородина&lt;br&gt;с сахаром, 300 г" loading="lazy"/>
+                            </picture>
+                          </div>
+                          <div class="ttl">Чёрная смородина<br>с сахаром, 300 г</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="card">
+                          <div class="pict">
+                            <picture>
+                              <source srcset="images/img-8.webp 1x, images/img-8@2x.webp 2x" type="image/webp"/>
+                              <source srcset="images/img-8.png 1x, images/img-8@2x.png 2x" type="image/jpeg"/><img src="images/img-8.webp" srcset="images/img-8.png 1x, images/img-8@2x.png 2x" alt="Лимон протёртый&lt;br&gt;с сахаром, 400 г" loading="lazy"/>
+                            </picture>
+                          </div>
+                          <div class="ttl">Лимон протёртый<br>с сахаром, 400 г</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="card">
+                          <div class="pict">
+                            <picture>
+                              <source srcset="images/img-5.webp 1x, images/img-5@2x.webp 2x" type="image/webp"/>
+                              <source srcset="images/img-5.png 1x, images/img-5@2x.png 2x" type="image/jpeg"/><img src="images/img-5.webp" srcset="images/img-5.png 1x, images/img-5@2x.png 2x" alt="Абрикос протёртый&lt;br&gt;с сахаром, 400 г" loading="lazy"/>
+                            </picture>
+                          </div>
+                          <div class="ttl">Абрикос протёртый<br>с сахаром, 400 г</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="card">
+                          <div class="pict">
+                            <picture>
+                              <source srcset="images/img-6.webp 1x, images/img-6@2x.webp 2x" type="image/webp"/>
+                              <source srcset="images/img-6.png 1x, images/img-6@2x.png 2x" type="image/jpeg"/><img src="images/img-6.webp" srcset="images/img-6.png 1x, images/img-6@2x.png 2x" alt="Земляника протёртая&lt;br&gt;с сахаром, 300 г" loading="lazy"/>
+                            </picture>
+                          </div>
+                          <div class="ttl">Земляника протёртая<br>с сахаром, 300 г</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="card">
+                          <div class="pict">
+                            <picture>
+                              <source srcset="images/img-7.webp 1x, images/img-7@2x.webp 2x" type="image/webp"/>
+                              <source srcset="images/img-7.png 1x, images/img-7@2x.png 2x" type="image/jpeg"/><img src="images/img-7.webp" srcset="images/img-7.png 1x, images/img-7@2x.png 2x" alt="Чёрная смородина&lt;br&gt;с сахаром, 300 г" loading="lazy"/>
+                            </picture>
+                          </div>
+                          <div class="ttl">Чёрная смородина<br>с сахаром, 300 г</div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="card">
+                          <div class="pict">
+                            <picture>
+                              <source srcset="images/img-8.webp 1x, images/img-8@2x.webp 2x" type="image/webp"/>
+                              <source srcset="images/img-8.png 1x, images/img-8@2x.png 2x" type="image/jpeg"/><img src="images/img-8.webp" srcset="images/img-8.png 1x, images/img-8@2x.png 2x" alt="Лимон протёртый&lt;br&gt;с сахаром, 400 г" loading="lazy"/>
+                            </picture>
+                          </div>
+                          <div class="ttl">Лимон протёртый<br>с сахаром, 400 г</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-button-prev">
+                    <svg class="icon icon-angle-left">
+                      <use xlink:href="./images/sprite.svg#angle-left"></use>
+                    </svg>
+                  </div>
+                  <div class="swiper-button-next">
+                    <svg class="icon icon-angle-right">
+                      <use xlink:href="./images/sprite.svg#angle-right"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+      <div class="bottom-carousel">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <picture>
+                <source srcset="images/c-img-1.webp 1x, images/c-img-1@2x.webp 2x" type="image/webp"/>
+                <source srcset="images/c-img-1.png 1x, images/c-img-1@2x.png 2x" type="image/jpeg"/><img src="images/c-img-1.webp" srcset="images/c-img-1.png 1x, images/c-img-1@2x.png 2x" alt="Название картинки" loading="lazy"/>
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source srcset="images/c-img-2.webp 1x, images/c-img-2@2x.webp 2x" type="image/webp"/>
+                <source srcset="images/c-img-2.png 1x, images/c-img-2@2x.png 2x" type="image/jpeg"/><img src="images/c-img-2.webp" srcset="images/c-img-2.png 1x, images/c-img-2@2x.png 2x" alt="Название картинки" loading="lazy"/>
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source srcset="images/c-img-3.webp 1x, images/c-img-3@2x.webp 2x" type="image/webp"/>
+                <source srcset="images/c-img-3.png 1x, images/c-img-3@2x.png 2x" type="image/jpeg"/><img src="images/c-img-3.webp" srcset="images/c-img-3.png 1x, images/c-img-3@2x.png 2x" alt="Название картинки" loading="lazy"/>
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source srcset="images/c-img-1.webp 1x, images/c-img-1@2x.webp 2x" type="image/webp"/>
+                <source srcset="images/c-img-1.png 1x, images/c-img-1@2x.png 2x" type="image/jpeg"/><img src="images/c-img-1.webp" srcset="images/c-img-1.png 1x, images/c-img-1@2x.png 2x" alt="Название картинки" loading="lazy"/>
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source srcset="images/c-img-2.webp 1x, images/c-img-2@2x.webp 2x" type="image/webp"/>
+                <source srcset="images/c-img-2.png 1x, images/c-img-2@2x.png 2x" type="image/jpeg"/><img src="images/c-img-2.webp" srcset="images/c-img-2.png 1x, images/c-img-2@2x.png 2x" alt="Название картинки" loading="lazy"/>
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source srcset="images/c-img-3.webp 1x, images/c-img-3@2x.webp 2x" type="image/webp"/>
+                <source srcset="images/c-img-3.png 1x, images/c-img-3@2x.png 2x" type="image/jpeg"/><img src="images/c-img-3.webp" srcset="images/c-img-3.png 1x, images/c-img-3@2x.png 2x" alt="Название картинки" loading="lazy"/>
+              </picture>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="s-footer">
+      <picture>
+        <source srcset="images/footer-bg.webp 1x, images/footer-bg@2x.webp 2x" type="image/webp"/>
+        <source srcset="images/footer-bg.png 1x, images/footer-bg@2x.png 2x" type="image/jpeg"/><img class="bg" src="images/footer-bg.webp" srcset="images/footer-bg.png 1x, images/footer-bg@2x.png 2x" alt="Название картинки" loading="lazy"/>
+      </picture>
+      <div class="container">
+        <div class="logo">
+          <picture>
+            <source srcset="images/logo-white.webp 1x, images/logo-white@2x.webp 2x" type="image/webp"/>
+            <source srcset="images/logo-white.png 1x, images/logo-white@2x.png 2x" type="image/jpeg"/><img src="images/logo-white.webp" srcset="images/logo-white.png 1x, images/logo-white@2x.png 2x" alt="logo" loading="lazy"/>
+          </picture>
+        </div><a class="buy" href="#">Где купить</a>
+        <div class="policy"><a href="#popup1" data-fancybox>Правила пользования</a><br>и <a href="#popup2" data-fancybox>политика конфиденциальности</a>
+        </div>
+        <div class="copy">Assortel.ru<br>Все права защищены
+          2023
+        </div>
+      </div>
+    </footer>
+    <div class="popup" id="popup1">
+      <h2>title</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab distinctio ex harum iste nemo nostrum pariatur quae quaerat quisquam, quo similique suscipit tempore veniam, vitae voluptate? Earum fuga similique sunt!</p>
+      <p>Alias amet consequuntur deserunt eos eum fugit, illo, incidunt ipsa molestias optio quam qui quos repudiandae sed tempore unde velit voluptate? Corporis cupiditate dolorum hic iusto pariatur possimus, quasi tenetur?</p>
+      <p>Aliquid aspernatur culpa dolores eaque est expedita fuga in laborum libero mollitia necessitatibus nemo nesciunt numquam odio perferendis placeat, provident quas quo sapiente tenetur. Aperiam consequatur libero odit ratione recusandae.</p>
+      <p>Consequatur debitis deleniti, est ipsa laboriosam obcaecati quibusdam ratione reprehenderit. Consectetur cupiditate distinctio ducimus, exercitationem fugit nam necessitatibus nemo, odio quia quos rem, ullam unde. Ducimus harum totam unde voluptatem.</p>
+      <p>Alias corporis deleniti enim incidunt natus placeat quae veritatis voluptatum? Accusantium aspernatur aut autem consectetur, corporis doloribus ea eum illo labore libero magni maxime modi nulla pariatur qui unde vel.</p>
+      <h2>title</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab distinctio ex harum iste nemo nostrum pariatur quae quaerat quisquam, quo similique suscipit tempore veniam, vitae voluptate? Earum fuga similique sunt!</p>
+      <p>Alias amet consequuntur deserunt eos eum fugit, illo, incidunt ipsa molestias optio quam qui quos repudiandae sed tempore unde velit voluptate? Corporis cupiditate dolorum hic iusto pariatur possimus, quasi tenetur?</p>
+      <p>Aliquid aspernatur culpa dolores eaque est expedita fuga in laborum libero mollitia necessitatibus nemo nesciunt numquam odio perferendis placeat, provident quas quo sapiente tenetur. Aperiam consequatur libero odit ratione recusandae.</p>
+      <p>Consequatur debitis deleniti, est ipsa laboriosam obcaecati quibusdam ratione reprehenderit. Consectetur cupiditate distinctio ducimus, exercitationem fugit nam necessitatibus nemo, odio quia quos rem, ullam unde. Ducimus harum totam unde voluptatem.</p>
+      <p>Alias corporis deleniti enim incidunt natus placeat quae veritatis voluptatum? Accusantium aspernatur aut autem consectetur, corporis doloribus ea eum illo labore libero magni maxime modi nulla pariatur qui unde vel.</p>
+    </div>
+    <div class="popup" id="popup2">
+      <h2>title</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab distinctio ex harum iste nemo nostrum pariatur quae quaerat quisquam, quo similique suscipit tempore veniam, vitae voluptate? Earum fuga similique sunt!</p>
+      <p>Alias amet consequuntur deserunt eos eum fugit, illo, incidunt ipsa molestias optio quam qui quos repudiandae sed tempore unde velit voluptate? Corporis cupiditate dolorum hic iusto pariatur possimus, quasi tenetur?</p>
+      <p>Aliquid aspernatur culpa dolores eaque est expedita fuga in laborum libero mollitia necessitatibus nemo nesciunt numquam odio perferendis placeat, provident quas quo sapiente tenetur. Aperiam consequatur libero odit ratione recusandae.</p>
+      <p>Consequatur debitis deleniti, est ipsa laboriosam obcaecati quibusdam ratione reprehenderit. Consectetur cupiditate distinctio ducimus, exercitationem fugit nam necessitatibus nemo, odio quia quos rem, ullam unde. Ducimus harum totam unde voluptatem.</p>
+      <p>Alias corporis deleniti enim incidunt natus placeat quae veritatis voluptatum? Accusantium aspernatur aut autem consectetur, corporis doloribus ea eum illo labore libero magni maxime modi nulla pariatur qui unde vel.</p>
+      <h2>title</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab distinctio ex harum iste nemo nostrum pariatur quae quaerat quisquam, quo similique suscipit tempore veniam, vitae voluptate? Earum fuga similique sunt!</p>
+      <p>Alias amet consequuntur deserunt eos eum fugit, illo, incidunt ipsa molestias optio quam qui quos repudiandae sed tempore unde velit voluptate? Corporis cupiditate dolorum hic iusto pariatur possimus, quasi tenetur?</p>
+      <p>Aliquid aspernatur culpa dolores eaque est expedita fuga in laborum libero mollitia necessitatibus nemo nesciunt numquam odio perferendis placeat, provident quas quo sapiente tenetur. Aperiam consequatur libero odit ratione recusandae.</p>
+      <p>Consequatur debitis deleniti, est ipsa laboriosam obcaecati quibusdam ratione reprehenderit. Consectetur cupiditate distinctio ducimus, exercitationem fugit nam necessitatibus nemo, odio quia quos rem, ullam unde. Ducimus harum totam unde voluptatem.</p>
+      <p>Alias corporis deleniti enim incidunt natus placeat quae veritatis voluptatum? Accusantium aspernatur aut autem consectetur, corporis doloribus ea eum illo labore libero magni maxime modi nulla pariatur qui unde vel.</p>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
