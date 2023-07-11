@@ -1,0 +1,174 @@
+- var id = 0;
+mixin icon(name, clc)
+	- mod = mod || ''
+	- clc = clc || ''
+	svg(class="icon icon-" + name)&attributes(attributes)
+		use(xlink:href=`${baseDir}images/sprite.svg#${name}`)
+mixin phone(data)
+	- href = data.phone.replace(/[^0-9\+]/g, '')
+	a&attributes(attributes)(href="tel:"+href)
+		if data.icon
+			+icon(data.icon)(class=data.classIcon)
+		=data.phone
+mixin picture(data)
+	- media = data.media == false ? false : true
+	- webp = data.webp == false ? false : true
+	- retina = data.retina == false ? false : true
+	- alt = data.alt ? data.alt: 'Название картинки'
+	- img = data.img
+	- src = img.replace(/\.jp[e]?g|.png/g, '')
+	- type = img.replace(src+'.', '')
+	- loading = data.loading ? data.loading: 'lazy'
+	- classImg = data.class ? data.class: false;
+	- width = data.width? data.width: false;
+	- height = data.height? data.height: false;
+	picture&attributes(attributes)
+		if media
+			- imgDefault = webp ? `${src}-s.webp`: `${src}-s.${type}`;
+			if webp
+				- imgL = 	retina ? `${src}.webp 1x, ${src}@2x.webp 2x` : `${src}.webp`
+				- imgM = 	retina ? `${src}-m.webp 1x, ${src}-m@2x.webp 2x` : `${src}-m.webp`
+				- imgS = 	retina ? `${src}-s.webp 1x, ${src}-s@2x.webp 2x` : `${src}-s.webp`
+				source(media='(min-width: 992px)' srcset=imgL type='image/webp')
+				source(media='(max-width: 991px) and (min-width: 768px)' srcset=imgM type='image/webp')
+				source(media='(max-width: 767px)' srcset=imgS  type='image/webp')
+			- imgL =  retina ? `${src}.${type} 1x, ${src}@2x.${type} 2x` : `${src}.${type}`
+			- imgM =  retina ? `${src}-m.${type} 1x, ${src}-m@2x.${type} 2x` : `${src}-m.${type}`
+			- imgS =  retina ? `${src}-s.${type} 1x, ${src}-s@2x.${type} 2x` : `${src}-s.${type}`
+			source(media='(min-width: 992px)' srcset=imgL type='image/jpeg')
+			source(media='(max-width: 991px) and (min-width: 768px)' srcset=imgM type='image/jpeg')
+			img(
+				src=imgDefault
+				srcset=imgS
+				alt=alt
+				loading=loading
+				class=classImg,
+				width=width,
+				height=height
+			)
+		else
+			- imgDefault = webp ? `${src}.webp`: `${src}.${type}`;
+			if webp
+				- img =  retina ? `${src}.webp 1x, ${src}@2x.webp 2x` : `${src}.webp`
+				source( srcset=img type='image/webp')
+			- img =  retina ? `${src}.${type} 1x, ${src}@2x.${type} 2x` : `${src}.${type}`
+			source(srcset=img type='image/jpeg')
+			img(src=imgDefault srcset=img
+				alt=alt
+				loading=loading
+				class=classImg,
+				width=width,
+				height=height
+			)
+mixin input(data)
+	- id++
+	.input&attributes(attributes)
+		if data.label
+			label(
+				class=data.label.class,
+				for=`input-${id}`,
+			)._label=data.label.ttl
+		- tagName = data.field.tagName? data.field.tagName: 'input'
+		- type = data.field.type  ? data.field.type:"text";
+		- type = tagName === 'textarea' ? false: type;
+		#{tagName}(
+			id=`input-${id}`,
+			class=data.field.class,
+			type=type,
+			placeholder=data.field.placeholder ? data.field.placeholder:false,
+			value=data.field.value ? data.field.value: false,
+			required=data.field.required ? data.field.required: false,
+			pattern=data.field.pattern ? data.field.pattern: false,
+			minlength=data.field.minlength ? data.field.minlength: false,
+		)._field
+		if data.error
+			.__error(
+				class=data.error.class
+			)
+				=data.error.ttl
+mixin checkbox(data)
+	- id++
+	.checkbox&attributes(attributes)
+		input(
+			id=`input-${id}`,
+			class=data.field? data.field.class: "",
+			type="checkbox",
+			value=data.field && data.field.value ? data.field.value: false,
+			required=data.field && data.field.required ? data.field.required: false,
+		)._input
+		label(
+			for=`input-${id}`,
+			class=data.label? data.label.class:""
+		)._label
+			._field
+				+icon('checked')._icon
+			if data.label
+				span._txt!=data.label.ttl
+mixin radio(data)
+	- id++
+	.radio&attributes(attributes)
+		input(
+			id=`input-${id}`,
+			class=data.field.class,
+			type="radio",
+			name=data.field.name? data.field.name: false,
+			value=data.field.value ? data.field.value: false,
+			required=data.field.required ? data.field.required: false,
+		)._input
+
+		label(
+			for=`input-${id}`,
+			class=data.label.class
+		)._label
+			._field
+			=data.label.ttl
+mixin btn(data)
+	- tagName = data.tagName? data.tagName: "a"
+	#{tagName}(
+		type=data.tagName === "button"? data.type? data.type: "button": false,
+		href=tagName === "a"? data.href?data.href:"#": false,
+		class=data.class
+		disabled=data.disabled? true:false
+		data-fancybox=data.fancybox?data.fancybox: false
+		data-src=data.src?data.src: false
+	).btn&attributes(attributes)
+		=data.ttl
+mixin breadcrumbs(data)
+	.breadcrumbs&attributes(attributes)
+		._l-container.l-container(
+			class=data.classContainer ? data.classContainer: 'l-container_xl'
+		)
+			ul._list
+				if !data.homeHide
+					li._itm.-hidden-phone.-hidden-tablet
+						a(href='home.html')._lnk
+							+icon('home2')._icon
+							span._ttl Главная
+				each itm,i  in data.items
+					if i+1 < data.items.length
+						li._itm(class=itm.class)
+							+icon('chevron-right')._icon
+							a(href=itm.url?itm.url: "#")._lnk
+								span._ttl!=itm.ttl
+					else
+						li._itm(class=itm.class)
+							+icon('chevron-right')._icon
+							span._ttl!=itm.ttl
+mixin pagination()
+	.pagination
+		ul._list
+			li._itm
+				span._lnk.is-active 1
+			li._itm
+				a(href="#")._lnk 2
+			li._itm
+				a(href="#")._lnk 3
+			li._itm
+				a(href="#")._lnk ...
+mixin counter(data)
+	.counter&attributes(attributes)
+		button(type="button")._btn.-plus
+			+icon('plus')
+		input(type="text" value="1" readonly)._input
+		button(type="button")._btn.-minus
+			+icon('minus')

@@ -1,0 +1,2669 @@
+{
+	"phone": "+7 8763 556 67 56",
+	"mainMenu": [
+		{
+			"ttl": "Каталог",
+			"url": "#",
+			"class": "b-main-menu__itm_hidden-desktop b-main-menu__itm_hidden-tablet"
+		},
+		{
+			"ttl": "Акции",
+			"url": "#"
+		},
+		{
+			"ttl": "О компании",
+			"url": "#"
+		},
+		{
+			"ttl": "Отзывы",
+			"url": "#"
+		},
+		{
+			"ttl": "Покупателям",
+			"url": "#",
+			"submenu": [
+				{
+					"ttl": "Условия доставки",
+					"url": "#"
+				},
+				{
+					"ttl": "Условия оплаты",
+					"url": "#"
+				},
+				{
+					"ttl": "Гарантия на товар",
+					"url": "#"
+				}
+			]
+		},
+		{
+			"ttl": "Партнёрам",
+			"url": "#"
+		},
+		{
+			"ttl": "Контакты ",
+			"url": "#"
+		}
+	],
+	"catalogMenu": [
+		{
+			"ttl": "Снаряды для единоборств",
+			"cols": [
+				{
+					"subsections": [
+						{
+							"section": "Боксёрские мешки и груши",
+							"menu": ["Мешки", "Груши", "Подвесные мешки и груши","Напольные мешки и груши", "Пневмогруши"]
+						}
+					]
+				},
+				{
+					"subsections": [
+						{
+							"section": "ЛАПЫ,  МАКИВАРЫ, РАКЕТКИ",
+							"menu": ["Лапы", "Макивары", "Ракетки"]
+						},
+						{
+							"section": "ЛАПАДАНЫ (ТРЕНЕРСКИЕ ПАЛКИ)"
+						}
+					]
+				}
+			],
+			"picts": ["images/b-catalog-menu/img-1.png","images/b-catalog-menu/img-2.png","images/b-catalog-menu/img-3.png"]
+		},
+		{
+			"ttl": "Одежда и сумки",
+			"cols": [
+				{
+					"subsections":  [
+						{
+							"section": "КОСТЮМЫ СПОРТИВНЫЕ"
+						},
+						{
+							"section": "СПОРТИВНЫЕ СУМКИ"
+						},
+						{
+							"section": "РАШГАРДЫ, МАЙКИ, ФУТБОЛКИ",
+							"menu": ["Рашгарды", "Майки", "Футболки"]
+						}
+					]
+				},
+				{
+					"subsections": [
+						{
+							"section": "ШТАНЫ, ШОРТЫ, ТАЙТСЫ",
+							"menu": ["Штаны", "Шорты", "Тайтсы"]
+						},
+						{
+							"section": "ШАПОЧКИ ДЛЯ ПЛАВАНИЯ"
+						},
+						{
+							"section": "КОСТЮМЫ-САУНА ДЛЯ ПОХУДЕНИЯ"
+						}
+					]
+				}
+			],
+
+			"picts": ["images/b-catalog-menu/img-4.png","images/b-catalog-menu/img-5.png","images/b-catalog-menu/img-6.png"]
+		},
+		{
+			"ttl": "Экипировка",
+			"cols": [
+				{
+					"subsections": [
+						{
+							"section": "ДЛЯ ЕДИНОБОРСТВ",
+							"menu": ["Борцовское трико", "Борцовки", "Кимоно","Пояса"]
+						},
+						{
+							"section": "ПЕРЧАТКИ",
+							"menu": ["MMA", "Боксёрские"]
+						}
+					]
+				},
+				{
+					"subsections": [
+						{
+							"section": "ЗАЩИТА",
+							"menu": ["Щитки","Шлемы с бампером","Шлемы с защитой носа","Капы спортивные","Бандажи защита паха","Бандажи голеностопные","Боксёрские бинты","Напульсники","Наколенники"]
+						}
+					]
+				}
+			],
+			"picts": ["images/b-catalog-menu/img-7.png","images/b-catalog-menu/img-8.png","images/b-catalog-menu/img-9.png"]
+		},
+		{
+			"ttl": "Турники",
+			"cols": [
+				{
+					"subsections":  [
+						{
+							"section": "ШВЕДСКИЕ СТЕНКИ"
+						},
+						{
+							"section": "ГРАВИТАЦИОННЫЕ БОТИНКИ"
+						},
+						{
+							"section": "УПОРЫ ДЛЯ ОТЖИМАНИЙ",
+							"menu": ["Платформы", "Упоры", "Наборы"]
+						}
+					]
+				},
+				{
+					"subsections": [
+						{
+							"section": "ТУРНИКИ",
+							"menu": ["3 в 1", "Распорные в проём"]
+						}
+					]
+				}
+			],
+			"picts": ["images/b-catalog-menu/img-12.png","images/b-catalog-menu/img-13.png","images/b-catalog-menu/img-14.png"]
+		},
+		{
+			"ttl": "Тренажёры, снаряды",
+			"cols": [
+				{
+					"subsections":  [
+						{
+							"section": "РОЛИКИ ДЛЯ ПРЕССА"
+						},
+						{
+							"section": "РОЛИКИ МАССАЖНЫЕ"
+						},
+						{
+							"section": "ДИСКИ БАЛАНСИРОВОЧНЫЕ"
+						},
+						{
+							"section": "СПОРТИВНЫЕ СКАКАЛКИ"
+						},
+						{
+							"section": "РОЛИКИ МАССАЖНЫЕ"
+						},
+						{
+							"section": "ЭСПАНДЕРЫ И ФИТНЕС-РЕЗИНКИ"
+						}
+					]
+				},
+				{
+					"subsections": [
+						{
+							"section": "ШТАНГИ, ГРИФЫ, БЛИНЫ",
+							"menu": ["Штанги", "Блины для штанги", "Грифы"]
+						},
+						{
+							"section": "ОБРУЧИ"
+						},
+						{
+							"section": "ГАНТЕЛИ"
+						}
+					]
+				},
+				{
+					"subsections": [
+						{
+							"section": "ФИТНЕС-КОВРИКИ"
+						},
+						{
+							"section": "СТЕП-ПЛАТФОРМЫ"
+						},
+						{
+							"section": "СКАКАЛКИ"
+						},
+						{
+							"section": "КАНАТЫ"
+						}
+					]
+				}
+			],
+			"picts": ["images/b-catalog-menu/img-10.png","images/b-catalog-menu/img-11.png"]
+		},
+		{
+			"ttl": "Распродажа",
+			"img": "images/b-catalog-menu/discount.png"
+		}
+	],
+	"footerMenus": [
+		{
+			"ttl": "Каталог",
+			"menu": [
+				{
+					"ttl": "Экипировка"
+				},
+				{
+					"ttl": "Одежда"
+				},
+				{
+					"ttl": "Аксессуары и тренажеры"
+				},
+				{
+					"ttl": "Акции"
+				}
+			]
+		},
+		{
+			"ttl": "Покупателям",
+			"menu": [
+				{"ttl": "Оплата"},
+				{"ttl": "Доставка"},
+				{"ttl": "Гарантия и возврат"}
+			]
+		},
+		{
+			"ttl": "О компании",
+			"menu": [
+				{
+					"ttl": "Партнерам"
+				},
+				{
+					"ttl": "Отзывы"
+				}
+			]
+		},
+		{
+			"ttl": "Контакты",
+			"menu": [
+				{
+					"ttl": "+7 (8763) 556 67 56",
+					"url": "tel:+787635566756",
+					"icon": {
+						"icon": "phone"
+					}
+				},
+				{
+					"ttl": "example@mail.ru",
+					"url": "mailto:example@mail.ru",
+					"icon": {
+						"icon": "mail"
+					}
+				},
+				{
+					"ttl": "@panther_energy",
+					"target": "_blank",
+					"url": "https://www.instagram.com/panther_energy/",
+					"icon": {
+						"icon": "instagram"
+					}
+				}
+			]
+		}
+	],
+	"products": {
+		"list": [
+			{
+				"class": "b-card-product_btn-visible",
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					},
+					{
+						"class": "b-card-product__label_new",
+						"ttl": "НОВИНКА"
+					},
+					{
+						"class": "b-card-product__label_sale",
+						"ttl": "SALE"
+					}
+				],
+				"fav": true,
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-1.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-2.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-3.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-4.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-5.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские",
+				"rating": "3.7",
+				"reviews": "8",
+				"colors": {
+					"list": [
+						{
+							"img": "images/b-card-product/color-img-1.png"
+						},
+						{
+							"img": "images/b-card-product/color-img-2.png"
+						},
+						{
+							"disabled": true,
+							"img": "images/b-card-product/color-img-2.png"
+						}
+					]
+				},
+				"sizes": {
+					"list": [
+						{
+							"ttl": "XS"
+						},
+						{
+							"ttl": "S"
+						},
+						{
+							"disabled": true,
+							"ttl": "M"
+						},
+						{
+							"ttl": "L"
+						}
+					]
+				}
+			},
+			{
+				"class": "b-card-product_btn-visible",
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					}
+				],
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-2.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-3.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-4.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽"
+				},
+				"title": "Ботинки боксёрские красные Pantera Energy боксёрские красные Pantera Energy красные Pantera Energy ",
+				"rating": "3.7",
+				"reviews": "8"
+			},
+			{
+				"class": "b-card-product_btn-visible is-has-cart",
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					},
+					{
+						"class": "b-card-product__label_new",
+						"ttl": "НОВИНКА"
+					},
+					{
+						"class": "b-card-product__label_sale",
+						"ttl": "SALE"
+					}
+				],
+				"fav": true,
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-3.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-2.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-1.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-4.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-5.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские красные Pantera Energy ",
+				"rating": "3.7",
+				"reviews": "8",
+				"colors": {
+					"list": [
+						{
+							"img": "images/b-card-product/color-img-1.png"
+						},
+						{
+							"img": "images/b-card-product/color-img-2.png"
+						},
+						{
+							"disabled": true,
+							"img": "images/b-card-product/color-img-2.png"
+						}
+					]
+				},
+				"sizes": {
+					"list": [
+						{
+							"ttl": "XS"
+						},
+						{
+							"ttl": "S"
+						},
+						{
+							"disabled": true,
+							"ttl": "M"
+						},
+						{
+							"ttl": "L"
+						}
+					]
+				}
+			},
+			{
+				"class": "b-card-product_btn-visible",
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					},
+					{
+						"class": "b-card-product__label_new",
+						"ttl": "НОВИНКА"
+					},
+					{
+						"class": "b-card-product__label_sale",
+						"ttl": "SALE"
+					}
+				],
+				"fav": true,
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-4.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-2.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-3.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-4.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-5.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские красные Pantera Energy ",
+				"rating": "3.7",
+				"reviews": "8",
+				"sizes": {
+					"list": [
+						{
+							"ttl": "XS"
+						},
+						{
+							"ttl": "S"
+						},
+						{
+							"disabled": true,
+							"ttl": "M"
+						},
+						{
+							"ttl": "L"
+						}
+					]
+				}
+			},
+			{
+				"class": "b-card-product_btn-visible",
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					},
+					{
+						"class": "b-card-product__label_new",
+						"ttl": "НОВИНКА"
+					},
+					{
+						"class": "b-card-product__label_sale",
+						"ttl": "SALE"
+					}
+				],
+				"fav": true,
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-1.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-2.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-3.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-4.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-5.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские красные Pantera Energy ",
+				"rating": "3.7",
+				"reviews": "8",
+				"colors": {
+					"list": [
+						{
+							"img": "images/b-card-product/color-img-1.png"
+						},
+						{
+							"img": "images/b-card-product/color-img-2.png"
+						},
+						{
+							"disabled": true,
+							"img": "images/b-card-product/color-img-2.png"
+						}
+					]
+				}
+			},
+			{
+				"class": "b-card-product_btn-visible",
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					}
+				],
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-2.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-3.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-4.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽"
+				},
+				"title": "Ботинки боксёрские красные Pantera Energy боксёрские красные Pantera Energy красные Pantera Energy ",
+				"rating": "3.7",
+				"reviews": "8"
+			},
+			{
+				"class": "b-card-product_btn-visible",
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					},
+					{
+						"class": "b-card-product__label_new",
+						"ttl": "НОВИНКА"
+					},
+					{
+						"class": "b-card-product__label_sale",
+						"ttl": "SALE"
+					}
+				],
+				"fav": true,
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-3.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-2.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-1.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-4.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-5.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские красные Pantera Energy ",
+				"rating": "3.7",
+				"reviews": "8",
+				"colors": {
+					"list": [
+						{
+							"img": "images/b-card-product/color-img-1.png"
+						},
+						{
+							"img": "images/b-card-product/color-img-2.png"
+						},
+						{
+							"disabled": true,
+							"img": "images/b-card-product/color-img-2.png"
+						}
+					]
+				},
+				"sizes": {
+					"list": [
+						{
+							"ttl": "XS"
+						},
+						{
+							"ttl": "S"
+						},
+						{
+							"disabled": true,
+							"ttl": "M"
+						},
+						{
+							"ttl": "L"
+						}
+					]
+				}
+			},
+			{
+				"class": "b-card-product_btn-visible",
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					},
+					{
+						"class": "b-card-product__label_new",
+						"ttl": "НОВИНКА"
+					},
+					{
+						"class": "b-card-product__label_sale",
+						"ttl": "SALE"
+					}
+				],
+				"fav": true,
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-4.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-2.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-3.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-4.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-5.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские красные Pantera Energy ",
+				"rating": "3.7",
+				"reviews": "8",
+				"colors": {
+					"list": [
+						{
+							"img": "images/b-card-product/color-img-1.png"
+						},
+						{
+							"img": "images/b-card-product/color-img-2.png"
+						},
+						{
+							"disabled": true,
+							"img": "images/b-card-product/color-img-2.png"
+						}
+					]
+				},
+				"sizes": {
+					"list": [
+						{
+							"ttl": "XS"
+						},
+						{
+							"ttl": "S"
+						},
+						{
+							"disabled": true,
+							"ttl": "M"
+						},
+						{
+							"ttl": "L"
+						}
+					]
+				}
+			}
+		],
+		"list2": [
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					},
+					{
+						"class": "b-card-product__label_new",
+						"ttl": "НОВИНКА"
+					},
+					{
+						"class": "b-card-product__label_sale",
+						"ttl": "SALE"
+					}
+				],
+				"fav": true,
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-1.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-2.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-3.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-4.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-5.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские",
+				"rating": "3.7",
+				"reviews": "8",
+				"colors": {
+					"list": [
+						{
+							"img": "images/b-card-product/color-img-1.png"
+						},
+						{
+							"img": "images/b-card-product/color-img-2.png"
+						},
+						{
+							"disabled": true,
+							"img": "images/b-card-product/color-img-2.png"
+						}
+					]
+				},
+				"sizes": {
+					"list": [
+						{
+							"ttl": "XXS"
+						},
+						{
+							"ttl": "XS"
+						},
+						{
+							"ttl": "S"
+						},
+						{
+							"disabled": true,
+							"ttl": "M"
+						},
+						{
+							"ttl": "L"
+						},
+						{
+							"ttl": "LX"
+						},
+						{
+							"ttl": "LXX"
+						}
+					]
+				}
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_stock",
+						"ttl": "Нет в наличии"
+					}
+				],
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-2.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-3.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-4.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-5.png"
+					}
+				],
+				"price": {
+					"now": "Раскупили"
+				},
+				"title": "Ботинки боксёрские красные Pantera Energy",
+				"rating": "3.7",
+				"reviews": "8",
+				"colors": {
+					"list": [
+						{
+							"img": "images/b-card-product/color-img-1.png"
+						},
+						{
+							"img": "images/b-card-product/color-img-2.png"
+						},
+						{
+							"disabled": true,
+							"img": "images/b-card-product/color-img-2.png"
+						}
+					]
+				},
+				"sizes": {
+					"list": [
+						{
+							"ttl": "XS"
+						},
+						{
+							"ttl": "S"
+						},
+						{
+							"disabled": true,
+							"ttl": "M"
+						},
+						{
+							"ttl": "L"
+						}
+					]
+				}
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					},
+					{
+						"class": "b-card-product__label_new",
+						"ttl": "НОВИНКА"
+					}
+				],
+				"fav": true,
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-3.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-3.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-4.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-5.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские",
+				"rating": "3.7",
+				"reviews": "8",
+				"colors": {
+					"list": [
+						{
+							"img": "images/b-card-product/color-img-1.png"
+						},
+						{
+							"img": "images/b-card-product/color-img-2.png"
+						},
+						{
+							"disabled": true,
+							"img": "images/b-card-product/color-img-2.png"
+						}
+					]
+				},
+				"sizes": {
+					"list": [
+						{
+							"ttl": "XS"
+						},
+						{
+							"ttl": "S"
+						},
+						{
+							"disabled": true,
+							"ttl": "M"
+						},
+						{
+							"ttl": "L"
+						}
+					]
+				}
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					}
+				],
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-4.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽"
+				},
+				"title": "Ботинки боксёрские красные Pantera Energy",
+				"rating": "3.7",
+				"reviews": "8"
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_stock",
+						"ttl": "Нет в наличии"
+					}
+				],
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-5.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские красные Pantera Energy",
+				"rating": "3.7",
+				"reviews": "8"
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					},
+					{
+						"class": "b-card-product__label_new",
+						"ttl": "НОВИНКА"
+					}
+				],
+				"fav": true,
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-1.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские",
+				"rating": "3.7",
+				"reviews": "8",
+				"colors": {
+					"list": [
+						{
+							"img": "images/b-card-product/color-img-1.png"
+						},
+						{
+							"img": "images/b-card-product/color-img-2.png"
+						},
+						{
+							"disabled": true,
+							"img": "images/b-card-product/color-img-2.png"
+						}
+					]
+				},
+				"sizes": {
+					"list": [
+						{
+							"ttl": "XS"
+						},
+						{
+							"ttl": "S"
+						},
+						{
+							"disabled": true,
+							"ttl": "M"
+						},
+						{
+							"ttl": "L"
+						}
+					]
+				}
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					}
+				],
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-2.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽"
+				},
+				"title": "Ботинки боксёрские красные Pantera Energy",
+				"rating": "3.7",
+				"reviews": "8"
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_stock",
+						"ttl": "Нет в наличии"
+					}
+				],
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-5.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские красные Pantera Energy",
+				"rating": "3.7",
+				"reviews": "8"
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					},
+					{
+						"class": "b-card-product__label_new",
+						"ttl": "НОВИНКА"
+					}
+				],
+				"fav": true,
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-1.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские",
+				"rating": "3.7",
+				"reviews": "8",
+				"colors": {
+					"list": [
+						{
+							"img": "images/b-card-product/color-img-1.png"
+						},
+						{
+							"img": "images/b-card-product/color-img-2.png"
+						},
+						{
+							"disabled": true,
+							"img": "images/b-card-product/color-img-2.png"
+						}
+					]
+				},
+				"sizes": {
+					"list": [
+						{
+							"ttl": "XS"
+						},
+						{
+							"ttl": "S"
+						},
+						{
+							"disabled": true,
+							"ttl": "M"
+						},
+						{
+							"ttl": "L"
+						}
+					]
+				}
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_stock",
+						"ttl": "Нет в наличии"
+					}
+				],
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-5.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские красные Pantera Energy",
+				"rating": "3.7",
+				"reviews": "8"
+			}
+		],
+		"list22": [
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					},
+					{
+						"class": "b-card-product__label_new",
+						"ttl": "НОВИНКА"
+					},
+					{
+						"class": "b-card-product__label_sale",
+						"ttl": "SALE"
+					}
+				],
+				"fav": true,
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-1.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские",
+				"btnHide": true
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					},
+					{
+						"class": "b-card-product__label_new",
+						"ttl": "НОВИНКА"
+					}
+				],
+				"fav": true,
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-3.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские",
+				"btnHide": true
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					}
+				],
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-4.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽"
+				},
+				"title": "Ботинки боксёрские красные Pantera Energy",
+				"btnHide": true
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_stock",
+						"ttl": "Нет в наличии"
+					}
+				],
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-5.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские красные Pantera Energy",
+				"btnHide": true
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					},
+					{
+						"class": "b-card-product__label_new",
+						"ttl": "НОВИНКА"
+					}
+				],
+				"fav": true,
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-1.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские",
+				"btnHide": true
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					},
+					{
+						"class": "b-card-product__label_new",
+						"ttl": "НОВИНКА"
+					},
+					{
+						"class": "b-card-product__label_sale",
+						"ttl": "SALE"
+					}
+				],
+				"fav": true,
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-1.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские",
+				"btnHide": true
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					},
+					{
+						"class": "b-card-product__label_new",
+						"ttl": "НОВИНКА"
+					}
+				],
+				"fav": true,
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-3.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские",
+				"btnHide": true
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					}
+				],
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-4.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽"
+				},
+				"title": "Ботинки боксёрские красные Pantera Energy",
+				"btnHide": true
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_stock",
+						"ttl": "Нет в наличии"
+					}
+				],
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-5.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские красные Pantera Energy",
+				"btnHide": true
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					},
+					{
+						"class": "b-card-product__label_new",
+						"ttl": "НОВИНКА"
+					}
+				],
+				"fav": true,
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-1.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские",
+				"btnHide": true
+			}
+		],
+		"list3": [
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					},
+					{
+						"class": "b-card-product__label_new",
+						"ttl": "НОВИНКА"
+					},
+					{
+						"class": "b-card-product__label_sale",
+						"ttl": "SALE"
+					}
+				],
+				"fav": true,
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-5.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-3.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-4.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-5.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские",
+				"rating": "3.7",
+				"reviews": "8",
+				"colors": {
+					"list": [
+						{
+							"img": "images/b-card-product/color-img-1.png"
+						},
+						{
+							"img": "images/b-card-product/color-img-2.png"
+						},
+						{
+							"disabled": true,
+							"img": "images/b-card-product/color-img-2.png"
+						}
+					]
+				},
+				"sizes": {
+					"list": [
+						{
+							"ttl": "XS"
+						},
+						{
+							"ttl": "S"
+						},
+						{
+							"disabled": true,
+							"ttl": "M"
+						},
+						{
+							"ttl": "L"
+						}
+					]
+				}
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_stock",
+						"ttl": "Нет в наличии"
+					}
+				],
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-4.png"
+					}
+				],
+				"price": {
+					"now": "Раскупили"
+				},
+				"title": "Ботинки боксёрские красные Pantera Energy",
+				"rating": "3.7",
+				"reviews": "8"
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					},
+					{
+						"class": "b-card-product__label_new",
+						"ttl": "НОВИНКА"
+					}
+				],
+				"fav": true,
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-3.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские",
+				"rating": "3.7",
+				"reviews": "8",
+				"colors": {
+					"list": [
+						{
+							"img": "images/b-card-product/color-img-1.png"
+						},
+						{
+							"img": "images/b-card-product/color-img-2.png"
+						},
+						{
+							"disabled": true,
+							"img": "images/b-card-product/color-img-2.png"
+						}
+					]
+				},
+				"sizes": {
+					"list": [
+						{
+							"ttl": "XS"
+						},
+						{
+							"ttl": "S"
+						},
+						{
+							"disabled": true,
+							"ttl": "M"
+						},
+						{
+							"ttl": "L"
+						}
+					]
+				}
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					}
+				],
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-2.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽"
+				},
+				"title": "Ботинки боксёрские красные Pantera Energy",
+				"rating": "3.7",
+				"reviews": "8"
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_stock",
+						"ttl": "Нет в наличии"
+					}
+				],
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-1.png"
+					}
+				],
+				"price": {
+					"now": "Раскупили"
+				},
+				"title": "Ботинки боксёрские красные Pantera Energy",
+				"rating": "3.7",
+				"reviews": "8"
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					},
+					{
+						"class": "b-card-product__label_new",
+						"ttl": "НОВИНКА"
+					}
+				],
+				"fav": true,
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-1.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские",
+				"rating": "3.7",
+				"reviews": "8",
+				"colors": {
+					"list": [
+						{
+							"img": "images/b-card-product/color-img-1.png"
+						},
+						{
+							"img": "images/b-card-product/color-img-2.png"
+						},
+						{
+							"disabled": true,
+							"img": "images/b-card-product/color-img-2.png"
+						}
+					]
+				},
+				"sizes": {
+					"list": [
+						{
+							"ttl": "XS"
+						},
+						{
+							"ttl": "S"
+						},
+						{
+							"disabled": true,
+							"ttl": "M"
+						},
+						{
+							"ttl": "L"
+						}
+					]
+				}
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					}
+				],
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-2.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽"
+				},
+				"title": "Ботинки боксёрские красные Pantera Energy",
+				"rating": "3.7",
+				"reviews": "8"
+			}
+		],
+		"list4": [
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					},
+					{
+						"class": "b-card-product__label_new",
+						"ttl": "НОВИНКА"
+					},
+					{
+						"class": "b-card-product__label_sale",
+						"ttl": "SALE"
+					}
+				],
+				"fav": true,
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-1.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские",
+				"rating": "3.7",
+				"reviews": "8",
+				"colors": {
+					"list": [
+						{
+							"img": "images/b-card-product/color-img-1.png"
+						},
+						{
+							"img": "images/b-card-product/color-img-2.png"
+						},
+						{
+							"disabled": true,
+							"img": "images/b-card-product/color-img-2.png"
+						}
+					]
+				},
+				"sizes": {
+					"list": [
+						{
+							"ttl": "XXS"
+						},
+						{
+							"ttl": "XS"
+						},
+						{
+							"ttl": "S"
+						},
+						{
+							"disabled": true,
+							"ttl": "M"
+						},
+						{
+							"ttl": "L"
+						},
+						{
+							"ttl": "LX"
+						},
+						{
+							"ttl": "LXX"
+						}
+					]
+				}
+			},
+			{
+				"labels": [
+
+				],
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-2.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские красные Pantera Energy",
+				"rating": "3.7",
+				"reviews": "8"
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					},
+					{
+						"class": "b-card-product__label_new",
+						"ttl": "НОВИНКА"
+					}
+				],
+				"fav": true,
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-3.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские",
+				"rating": "3.7",
+				"reviews": "8",
+				"colors": {
+					"list": [
+						{
+							"img": "images/b-card-product/color-img-1.png"
+						},
+						{
+							"img": "images/b-card-product/color-img-2.png"
+						},
+						{
+							"disabled": true,
+							"img": "images/b-card-product/color-img-2.png"
+						}
+					]
+				},
+				"sizes": {
+					"list": [
+						{
+							"ttl": "XS"
+						},
+						{
+							"ttl": "S"
+						},
+						{
+							"disabled": true,
+							"ttl": "M"
+						},
+						{
+							"ttl": "L"
+						}
+					]
+				}
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					}
+				],
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-4.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽"
+				},
+				"title": "Ботинки боксёрские красные Pantera Energy",
+				"rating": "3.7",
+				"reviews": "8"
+			},
+			{
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-5.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские красные Pantera Energy",
+				"rating": "3.7",
+				"reviews": "8"
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					},
+					{
+						"class": "b-card-product__label_new",
+						"ttl": "НОВИНКА"
+					}
+				],
+				"fav": true,
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-1.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские",
+				"rating": "3.7",
+				"reviews": "8",
+				"colors": {
+					"list": [
+						{
+							"img": "images/b-card-product/color-img-1.png"
+						},
+						{
+							"img": "images/b-card-product/color-img-2.png"
+						},
+						{
+							"disabled": true,
+							"img": "images/b-card-product/color-img-2.png"
+						}
+					]
+				},
+				"sizes": {
+					"list": [
+						{
+							"ttl": "XS"
+						},
+						{
+							"ttl": "S"
+						},
+						{
+							"disabled": true,
+							"ttl": "M"
+						},
+						{
+							"ttl": "L"
+						}
+					]
+				}
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					}
+				],
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-2.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽"
+				},
+				"title": "Ботинки боксёрские красные Pantera Energy",
+				"rating": "3.7",
+				"reviews": "8"
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_stock",
+						"ttl": "Нет в наличии"
+					}
+				],
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-5.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские красные Pantera Energy",
+				"rating": "3.7",
+				"reviews": "8"
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					},
+					{
+						"class": "b-card-product__label_new",
+						"ttl": "НОВИНКА"
+					}
+				],
+				"fav": true,
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-1.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские",
+				"rating": "3.7",
+				"reviews": "8",
+				"colors": {
+					"list": [
+						{
+							"img": "images/b-card-product/color-img-1.png"
+						},
+						{
+							"img": "images/b-card-product/color-img-2.png"
+						},
+						{
+							"disabled": true,
+							"img": "images/b-card-product/color-img-2.png"
+						}
+					]
+				},
+				"sizes": {
+					"list": [
+						{
+							"ttl": "XS"
+						},
+						{
+							"ttl": "S"
+						},
+						{
+							"disabled": true,
+							"ttl": "M"
+						},
+						{
+							"ttl": "L"
+						}
+					]
+				}
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					}
+				],
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-2.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽"
+				},
+				"title": "Ботинки боксёрские красные Pantera Energy",
+				"rating": "3.7",
+				"reviews": "8"
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					},
+					{
+						"class": "b-card-product__label_new",
+						"ttl": "НОВИНКА"
+					},
+					{
+						"class": "b-card-product__label_sale",
+						"ttl": "SALE"
+					}
+				],
+				"fav": true,
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-1.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские",
+				"rating": "3.7",
+				"reviews": "8",
+				"colors": {
+					"list": [
+						{
+							"img": "images/b-card-product/color-img-1.png"
+						},
+						{
+							"img": "images/b-card-product/color-img-2.png"
+						},
+						{
+							"disabled": true,
+							"img": "images/b-card-product/color-img-2.png"
+						}
+					]
+				},
+				"sizes": {
+					"list": [
+						{
+							"ttl": "XXS"
+						},
+						{
+							"ttl": "XS"
+						},
+						{
+							"ttl": "S"
+						},
+						{
+							"disabled": true,
+							"ttl": "M"
+						},
+						{
+							"ttl": "L"
+						},
+						{
+							"ttl": "LX"
+						},
+						{
+							"ttl": "LXX"
+						}
+					]
+				}
+			},
+			{
+
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-2.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские красные Pantera Energy",
+				"rating": "3.7",
+				"reviews": "8"
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					},
+					{
+						"class": "b-card-product__label_new",
+						"ttl": "НОВИНКА"
+					}
+				],
+				"fav": true,
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-3.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские",
+				"rating": "3.7",
+				"reviews": "8",
+				"colors": {
+					"list": [
+						{
+							"img": "images/b-card-product/color-img-1.png"
+						},
+						{
+							"img": "images/b-card-product/color-img-2.png"
+						},
+						{
+							"disabled": true,
+							"img": "images/b-card-product/color-img-2.png"
+						}
+					]
+				},
+				"sizes": {
+					"list": [
+						{
+							"ttl": "XS"
+						},
+						{
+							"ttl": "S"
+						},
+						{
+							"disabled": true,
+							"ttl": "M"
+						},
+						{
+							"ttl": "L"
+						}
+					]
+				}
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					}
+				],
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-4.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽"
+				},
+				"title": "Ботинки боксёрские красные Pantera Energy",
+				"rating": "3.7",
+				"reviews": "8"
+			},
+			{
+				"labels": [
+
+				],
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-5.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские красные Pantera Energy",
+				"rating": "3.7",
+				"reviews": "8"
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					},
+					{
+						"class": "b-card-product__label_new",
+						"ttl": "НОВИНКА"
+					}
+				],
+				"fav": true,
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-1.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские",
+				"rating": "3.7",
+				"reviews": "8",
+				"colors": {
+					"list": [
+						{
+							"img": "images/b-card-product/color-img-1.png"
+						},
+						{
+							"img": "images/b-card-product/color-img-2.png"
+						},
+						{
+							"disabled": true,
+							"img": "images/b-card-product/color-img-2.png"
+						}
+					]
+				},
+				"sizes": {
+					"list": [
+						{
+							"ttl": "XS"
+						},
+						{
+							"ttl": "S"
+						},
+						{
+							"disabled": true,
+							"ttl": "M"
+						},
+						{
+							"ttl": "L"
+						}
+					]
+				}
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					}
+				],
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-2.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽"
+				},
+				"title": "Ботинки боксёрские красные Pantera Energy",
+				"rating": "3.7",
+				"reviews": "8"
+			},
+			{
+				"labels": [
+
+				],
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-5.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские красные Pantera Energy",
+				"rating": "3.7",
+				"reviews": "8"
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					},
+					{
+						"class": "b-card-product__label_new",
+						"ttl": "НОВИНКА"
+					}
+				],
+				"fav": true,
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-1.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские",
+				"rating": "3.7",
+				"reviews": "8",
+				"colors": {
+					"list": [
+						{
+							"img": "images/b-card-product/color-img-1.png"
+						},
+						{
+							"img": "images/b-card-product/color-img-2.png"
+						},
+						{
+							"disabled": true,
+							"img": "images/b-card-product/color-img-2.png"
+						}
+					]
+				},
+				"sizes": {
+					"list": [
+						{
+							"ttl": "XS"
+						},
+						{
+							"ttl": "S"
+						},
+						{
+							"disabled": true,
+							"ttl": "M"
+						},
+						{
+							"ttl": "L"
+						}
+					]
+				}
+			},
+			{
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					}
+				],
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-2.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽"
+				},
+				"title": "Ботинки боксёрские красные Pantera Energy",
+				"rating": "3.7",
+				"reviews": "8"
+			}
+		],
+		"notStock": [
+			{
+				"notStock": true,
+				"fav": true,
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-1.png"
+					}
+				],
+
+				"title": "Ботинки боксёрские",
+				"rating": "3.7",
+				"reviews": "8",
+				"sizes": {
+					"list": [
+						{
+							"ttl": "XXS"
+						},
+						{
+							"ttl": "XS"
+						},
+						{
+							"ttl": "S"
+						},
+						{
+							"disabled": true,
+							"ttl": "M"
+						},
+						{
+							"ttl": "L"
+						},
+						{
+							"ttl": "LX"
+						},
+						{
+							"ttl": "LXX"
+						}
+					]
+				}
+			},
+			{
+				"notStock": true,
+				"labels": [
+					{
+						"class": "b-card-product__label_stock",
+						"ttl": "Нет в наличии"
+					}
+				],
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-5.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские красные Pantera Energy",
+				"rating": "3.7",
+				"reviews": "8"
+			},
+			{
+				"notStock": true,
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					}
+				],
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-2.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-3.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-4.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽"
+				},
+				"title": "Ботинки боксёрские красные Pantera Energy боксёрские красные Pantera Energy красные Pantera Energy ",
+				"rating": "3.7",
+				"reviews": "8"
+			},
+			{
+				"notStock": true,
+				"fav": true,
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-1.png"
+					}
+				],
+
+				"title": "Ботинки боксёрские",
+				"rating": "3.7",
+				"reviews": "8",
+				"sizes": {
+					"list": [
+						{
+							"ttl": "XXS"
+						},
+						{
+							"ttl": "XS"
+						},
+						{
+							"ttl": "S"
+						},
+						{
+							"disabled": true,
+							"ttl": "M"
+						},
+						{
+							"ttl": "L"
+						},
+						{
+							"ttl": "LX"
+						},
+						{
+							"ttl": "LXX"
+						}
+					]
+				}
+			},
+			{
+				"notStock": true,
+				"labels": [
+					{
+						"class": "b-card-product__label_stock",
+						"ttl": "Нет в наличии"
+					}
+				],
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-5.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽",
+					"old": "1 500₽",
+					"sale": "-15%"
+				},
+				"title": "Ботинки боксёрские красные Pantera Energy",
+				"rating": "3.7",
+				"reviews": "8"
+			},
+			{
+				"notStock": true,
+				"labels": [
+					{
+						"class": "b-card-product__label_hit",
+						"ttl": "ХИТ"
+					}
+				],
+				"images": [
+					{
+						"media": false,
+						"img": "images/b-card-product/img-2.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-3.png"
+					},
+					{
+						"media": false,
+						"img": "images/b-card-product/img-4.png"
+					}
+				],
+				"price": {
+					"now": "1 500₽"
+				},
+				"title": "Ботинки боксёрские красные Pantera Energy боксёрские красные Pantera Energy красные Pantera Energy ",
+				"rating": "3.7",
+				"reviews": "8"
+			}
+		]
+	}
+}
+

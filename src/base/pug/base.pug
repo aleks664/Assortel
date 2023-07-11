@@ -1,0 +1,22 @@
+include ../../mixins/pug/mixin
+block variables
+	-
+		var baseDir = './';
+
+doctype html
+html(lang="ru")
+	//- Include head
+	include ./head
+
+	body(class=pageClass)
+		block body
+			block header
+				include ../../components/s-header/s-header
+			block main
+				main.l-main
+					block content
+			block footer
+				include ../../components/s-footer/s-footer
+
+		script(src=`${baseDir}js/main.js`)
+		block script

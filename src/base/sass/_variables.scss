@@ -1,0 +1,29 @@
+// Font
+$font-family-base: 'PT Sans Narrow', Arial, Helvetica, sans-serif;
+
+/**
+ * Grid system
+ * -----------------------------------------
+ */
+
+//Breakpoints
+$grid-breakpoints: (
+	xs: 0,
+	xsm: 375px,
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px,
+	xxl: 1400px,
+	xxxl:  1872px
+);
+$device-breakpoints: (
+	phone: xs,
+	tablet: md,
+	desktop: lg
+);
+$base-font-size: 27px;
+$green-dark: #007300;
+// time
+$animation-base-time: 0.3s;
+

@@ -1,0 +1,31 @@
+header.s-header
+	+picture({
+		class: 'bg',
+		media: false,
+		img: 'images/header.png'
+	})
+	.container
+		button(type="button").burger#burger
+			span
+		.logo
+			+picture({
+				media: false,
+				img: 'images/logo.png'
+			})
+		nav#menu
+			ul
+				li
+					a(href="#").lnk.js-anchore  Овощи
+				li
+					a(href="#").lnk.js-anchore Фрукты
+				li
+					a(href="#").btn Где купить?
+		.languages
+			.head
+				span RU
+				+icon('angle-down')
+			.dropdown
+				.itm
+					a(href="#") En
+				.itm
+					a(href="#") De

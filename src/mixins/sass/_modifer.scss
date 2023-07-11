@@ -1,0 +1,31 @@
+@mixin modifier($class, $grid: false) {
+	@if $grid {
+		@each $breakpoint in map-keys($grid-breakpoints) {
+			@include media-breakpoint-between($breakpoint,$breakpoint) {
+				$infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+				@if $infix == "" {
+					[class$="-xs-#{$class}"],
+					[class*="-xs-#{$class} "] {
+						@content;
+					}
+				} @else {
+					[class$="#{$infix}-#{$class}"],
+					[class*="#{$infix}-#{$class} "] {
+						@content;
+					}
+				}
+			}
+		}
+	} @else {
+		[class$="_#{$class}"],
+		[class*="_#{$class} "] {
+			@content;
+		}
+	}
+}
+@mixin  center() {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}

@@ -1,0 +1,18 @@
+@use "sass:math";
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+}
+
+.icon-angle-down {
+    width: (14 / 9) * 1em;
+}
+.icon-angle-left {
+    width: (21 / 35) * 1em;
+}
+.icon-angle-right {
+    width: (20 / 35) * 1em;
+}

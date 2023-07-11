@@ -1,0 +1,27 @@
+@font-face {
+	font-family: 'PT Sans Narrow';
+	src: url('../fonts/PTSansPro-NarrowLight.woff2') format('woff2'),
+	url('../fonts/PTSansPro-NarrowLight.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'PT Sans Narrow';
+	src: url('../fonts/PTSans-Narrow.woff2') format('woff2'),
+	url('../fonts/PTSans-Narrow.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'PT Sans Narrow';
+	src: url('../fonts/PTSans-NarrowBold.woff2') format('woff2'),
+	url('../fonts/PTSans-NarrowBold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+

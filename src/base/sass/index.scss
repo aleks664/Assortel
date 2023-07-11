@@ -1,0 +1,123 @@
+.s-i-container {
+	max-width: 1200px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.b-i-dropdown {
+	position: relative;
+	width: 250px;
+	&__head {
+		border: 1px solid #dcdcde;
+		border-radius: 5px;
+		padding: 15px 25px;
+		cursor: pointer;
+		transition: border-radius 0.3s;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	&.is-open &__head {
+		border-radius: 5px 5px 0 0;
+	}
+	&.is-open &__icon {
+		transform: rotate(0);
+	}
+	&__icon {
+		flex: 0 0 18px;
+		margin-left: 15px;
+		transform: rotate(180deg);
+		transition: transform 0.3s ;
+	}
+	&__list {
+		display: none;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		width: 100%;
+		background-color: #FFF;
+		z-index: 10;
+		border: 1px solid #dcdcde;
+		border-radius: 0 0 5px 5px;
+	}
+	&__itm {
+		cursor: pointer;
+		padding: 5px 25px;
+		transition: background-color 0.3s ;
+		&:hover,
+		&.is-selected {
+			background-color: #dcdcde;
+		}
+	}
+}
+.b-i-tabs {
+	overflow: hidden;
+	position: relative;
+	border: 1px solid #dcdcde;
+	border-radius: 5px;
+	&__tab {
+		transition: opacity 0.3s , visibility 0.3s;
+		&:not(.is-active) {
+			visibility: hidden;
+			opacity: 0;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+		}
+	}
+	&__head {
+		padding: 15px 25px;
+		background-color: #fbfafd;
+		border-bottom: 1px solid #dcdcde;
+	}
+	&__body {
+		padding: 15px 25px;
+	}
+}
+code,
+pre {
+	padding: 10px;
+	background: #F1F3F4;
+	border: 1px solid #CACDD1;
+	text-indent: 0;
+	white-space: pre-wrap;
+	word-break: break-word;
+	border-radius: 5px;
+
+}
+code {
+	padding: 0 3px;
+}
+.b-i-colors-list {
+	display: flex;
+	flex-flow: row wrap;
+	gap: 20px 10px;
+	&__itm {
+		text-align: center;
+	}
+	&__circle {
+		width: 100px;
+		height: 100px;
+		border-radius: 100%;
+		border: 1px solid;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	&__txt {
+		margin-top: 10px;
+	}
+}
+.b-i-icons {
+	display: flex;
+	flex-flow: row wrap;
+	gap: 10px;
+	text-align: center;
+	.icon {
+		font-size: 38px;
+	}
+	code {
+		display: block;
+		font-size: 12px;
+	}
+}

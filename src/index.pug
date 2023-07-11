@@ -1,0 +1,148 @@
+extends base/pug/base
+append variables
+	- var title = 'Assortel'
+	- var pageClass = ''
+	- var pageUrl = '/'
+block content
+	.section.section-main
+		+picture({
+			img: 'images/bg-1.png',
+			class: 'bg'
+		})
+		.desc-center
+			.container
+				img(src="images/main-banner.svg" loading="loading")
+	.running-line.js-marquee
+		.inner
+			ul
+				li качественная продукция
+				li отборные фрукты и овощи
+				li натурально и полезно
+				li качественная продукция
+				li отборные фрукты и овощи
+
+	.section.section-3
+		+picture({
+			img: 'images/bg-3.png',
+			class: 'bg'
+		})
+	mixin catalog(data)
+		.catalog&attributes(attributes)
+			.container
+				.title=data.ttl
+				.product-carousel
+					.swiper
+						.swiper-wrapper
+							each itm in data.products
+								.swiper-slide
+									.card
+										.pict
+											+picture({
+												media: false,
+												img: itm.img,
+												alt: itm.ttl
+											})
+										.ttl!=itm.ttl
+					.swiper-button-prev
+						+icon('angle-left')
+					.swiper-button-next
+						+icon('angle-right')
+	+catalog({
+		ttl: 'Овощная консервация',
+		products: [
+			{
+				img: 'images/img-1.png',
+				ttl: 'Томаты в собственном <br>соку, 400 г'
+			},
+			{
+				img: 'images/img-2.png',
+				ttl: 'Горошек зелёный, <br>300 г'
+			},
+			{
+				img: 'images/img-3.png',
+				ttl: 'Кукуруза сахарная, <br>300 г'
+			},
+			{
+				img: 'images/img-4.png',
+				ttl: 'Горошек зелёный, <br>400 г'
+			},
+			{
+				img: 'images/img-1.png',
+				ttl: 'Томаты в собственном <br>соку, 400 г'
+			},
+			{
+				img: 'images/img-2.png',
+				ttl: 'Горошек зелёный, <br>300 г'
+			},
+			{
+				img: 'images/img-3.png',
+				ttl: 'Кукуруза сахарная, <br>300 г'
+			},
+			{
+				img: 'images/img-4.png',
+				ttl: 'Горошек зелёный, <br>400 г'
+			}
+		]
+	})
+	.section.section-4
+		+picture({
+			img: 'images/bg-6.png',
+			class: 'bg'
+		})
+	+catalog({
+		ttl: 'Плодовая консервация',
+		products: [
+			{
+				img: 'images/img-5.png',
+				ttl: 'Абрикос протёртый<br>с сахаром, 400 г'
+			},
+			{
+				img: 'images/img-6.png',
+				ttl: 'Земляника протёртая<br>с сахаром, 300 г'
+			},
+			{
+				img: 'images/img-7.png',
+				ttl: 'Чёрная смородина<br>с сахаром, 300 г'
+			},
+			{
+				img: 'images/img-8.png',
+				ttl: 'Лимон протёртый<br>с сахаром, 400 г'
+			},
+			{
+				img: 'images/img-5.png',
+				ttl: 'Абрикос протёртый<br>с сахаром, 400 г'
+			},
+			{
+				img: 'images/img-6.png',
+				ttl: 'Земляника протёртая<br>с сахаром, 300 г'
+			},
+			{
+				img: 'images/img-7.png',
+				ttl: 'Чёрная смородина<br>с сахаром, 300 г'
+			},
+			{
+				img: 'images/img-8.png',
+				ttl: 'Лимон протёртый<br>с сахаром, 400 г'
+			}
+
+		]
+	}).color-red
+	-
+		var carousel = [
+			'images/c-img-1.png',
+			'images/c-img-2.png',
+			'images/c-img-3.png',
+			'images/c-img-1.png',
+			'images/c-img-2.png',
+			'images/c-img-3.png'
+		]
+	.bottom-carousel
+		.swiper
+			.swiper-wrapper
+				each img in carousel
+					.swiper-slide
+						+picture({
+							media: false,
+							img: img
+						})
+

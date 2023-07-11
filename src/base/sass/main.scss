@@ -1,0 +1,35 @@
+/**
+ * normalize
+ */
+@import '../../../node_modules/normalize-scss/sass/normalize/import-now';
+@import '../../../node_modules/swiper/swiper.scss';
+@import 'node_modules/@fancyapps/ui/dist/fancybox/fancybox';
+
+/**
+ * normalize
+ */
+@import './variables';
+
+/**
+ * Mixins
+ */
+@import '../../mixins/sass/sprite-svg';
+@import '../../mixins/sass/breakpoints';
+@import '../../mixins/sass/modifer';
+
+/**
+ * Base
+ */
+@import 'fonts';
+@import 'base';
+
+
+/**
+ * Components
+ */
+@import '../../components/components';
+
+/**
+ * Vendor styles
+ */
+@import '../../vendor/vendor';
