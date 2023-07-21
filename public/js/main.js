@@ -254,8 +254,8 @@ var parallax = function parallax() {
   window.addEventListener('scroll', function () {
     arrSection.forEach(function ($section) {
       var arrEls = $section.querySelectorAll('.parallax');
-      // eslint-disable-next-line no-unused-vars
       var top = (window.pageYOffset || $section.scrollTop) - ($section.clientTop || 0);
+      // eslint-disable-next-line no-unused-vars
       var _iterator = _createForOfIteratorHelper(arrEls),
         _step;
       try {

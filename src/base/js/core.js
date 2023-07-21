@@ -196,7 +196,6 @@ const swiper = new Swiper(document.querySelector('.bottom-carousel  .swiper'), {
 
 const parallax = () => {
 	const arrSection = document.querySelectorAll('.section-parallax')
-
 	const move = (item, scroll) => {
 		let speed = item.dataset.speed || 1
 		let movementSize = scroll / 20 * speed
@@ -217,8 +216,8 @@ const parallax = () => {
 	window.addEventListener('scroll', () => {
 		arrSection.forEach($section => {
 			const arrEls = $section.querySelectorAll('.parallax')
-			// eslint-disable-next-line no-unused-vars
 			let top = (window.pageYOffset || $section.scrollTop) - ($section.clientTop || 0)
+			// eslint-disable-next-line no-unused-vars
 			for (const item of arrEls) {
 				move(item, top)
 			}
