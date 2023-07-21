@@ -63,6 +63,53 @@ body {
 	}
 	&.section-3 {
 		margin-top: -25px;
+		position: relative;
+		.parallax {
+			position: absolute;
+			&.parallax-1 {
+				width: percentage(182/1920);
+				height: percentage(175/1115);
+				left: percentage(400/1920);
+				top: percentage(409/1115);
+			}
+			&.parallax-2 {
+				width: percentage(192/1920);
+				height: percentage(163/1115);
+				left: percentage(1140/1920);
+				top: percentage(250/1115);
+			}
+			&.parallax-3 {
+				width: percentage(125/1920);
+				height: percentage(160/1115);
+				left: percentage(1288/1920);
+				top: percentage(420/1115);
+			}
+			&.parallax-4 {
+				width: percentage(204/1920);
+				height: percentage(167/1115);
+				left: percentage(517/1920);
+				top: percentage(200/1115);
+			}
+			&.parallax-5 {
+				width: percentage(266/1920);
+				height: percentage(215/1115);
+				left: percentage(1207/1920);
+				top: percentage(764/1115);
+			}
+			&.parallax-6 {
+				width: percentage(295/1920);
+				height: percentage(214/1115);
+				left: percentage(289/1920);
+				top: percentage(59/1115);
+			}
+			&.parallax-7 {
+				width: percentage(192/1920);
+				height: percentage(172/1115);
+				left: percentage(586/1920);
+				top: percentage(717/1115);
+			}
+
+		}
 		@include media-breakpoint-down(sm) {
 			.bg {
 				object-position: 75% bottom;
@@ -70,9 +117,85 @@ body {
 		}
 	}
 	&.section-4 {
+		margin-top: 100px;
 		@include media-breakpoint-down(sm) {
 			.bg {
 				object-position: 80% bottom;
+			}
+		}
+		.parallax {
+			position: absolute;
+			&.parallax-1 {
+				width: percentage(178/1920);
+				height: percentage(176/1297);
+				top: percentage(1100/1297);
+				left: percentage(1154/1920);
+			}
+			&.parallax-2 {
+				width: percentage(75/1920);
+				height: percentage(74/1297);
+				top: percentage(122/1297);
+				left: percentage(750/1920);
+			}
+			&.parallax-3 {
+				width: percentage(76/1920);
+				height: percentage(77/1297);
+				top: percentage(393/1297);
+				left: percentage(890/1920);
+			}
+			&.parallax-4 {
+				width: percentage(69/1920);
+				height: percentage(68/1297);
+				top: percentage(286/1297);
+				left: percentage(1000/1920);
+			}
+			&.parallax-5 {
+				width: percentage(108/1920);
+				height: percentage(109/1297);
+				top: percentage(-490/1297);
+				left: percentage(1500/1920);
+			}
+			&.parallax-6 {
+				width: percentage(178/1920);
+				height: percentage(154/1297);
+				top: percentage(244/1297);
+				left: percentage(1259/1920);
+			}
+			&.parallax-7 {
+				width: percentage(181/1920);
+				height: percentage(216/1297);
+				top: percentage(956/1297);
+				left: percentage(307/1920);
+			}
+			&.parallax-8 {
+				width: percentage(265/1920);
+				height: percentage(254/1297);
+				top: percentage(360/1297);
+				left: percentage(694/1920);
+			}
+			&.parallax-9 {
+				width: percentage(275/1920);
+				height: percentage(180/1297);
+				top: percentage(803/1297);
+				left: percentage(800/1920);
+			}
+			&.parallax-10 {
+				width: percentage(232/1920);
+				height: percentage(96/1297);
+				top: percentage(571/1297);
+				left: percentage(1800/1920);
+			}
+			&.parallax-11 {
+				width: percentage(289/1920);
+				height: percentage(231/1297);
+				top: percentage(202/1297);
+				left: percentage(130/1920);
+			}
+			&.parallax-12 {
+				width: percentage(238/1920);
+				height: percentage(151/1297);
+				top: percentage(768/1297);
+				left: percentage(617/1920);
 			}
 		}
 	}

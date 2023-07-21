@@ -34,6 +34,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _fancyapps_ui__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @fancyapps/ui */ "./node_modules/@fancyapps/ui/dist/index.esm.js");
 /* harmony import */ var swiper__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! swiper */ "./node_modules/swiper/swiper.esm.js");
+function _createForOfIteratorHelper(o, allowArrayLike) { var it = typeof Symbol !== "undefined" && o[Symbol.iterator] || o["@@iterator"]; if (!it) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = it.call(o); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
 
 var slideUp = function slideUp(target) {
   var duration = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 500;
@@ -228,6 +231,47 @@ var swiper = new swiper__WEBPACK_IMPORTED_MODULE_1__["default"](document.querySe
     }
   }
 });
+var parallax = function parallax() {
+  var arrSection = document.querySelectorAll('.section-parallax');
+  var move = function move(item, scroll) {
+    var speed = item.dataset.speed || 1;
+    var movementSize = scroll / 20 * speed;
+    if (item.classList.contains('top')) {
+      item.style.marginTop = "-".concat(movementSize, "px");
+    }
+    if (item.classList.contains('bottom')) {
+      item.style.marginTop = "".concat(movementSize, "px");
+    }
+    if (item.classList.contains('left')) {
+      item.style.marginLeft = "-".concat(movementSize, "px");
+    }
+    if (item.classList.contains('right')) {
+      item.style.marginLeft = "".concat(movementSize, "px");
+    }
+    // item.style[`margin${direction}`] = `${movementSize}px`;
+  };
+
+  window.addEventListener('scroll', function () {
+    arrSection.forEach(function ($section) {
+      var arrEls = $section.querySelectorAll('.parallax');
+      // eslint-disable-next-line no-unused-vars
+      var top = (window.pageYOffset || $section.scrollTop) - ($section.clientTop || 0);
+      var _iterator = _createForOfIteratorHelper(arrEls),
+        _step;
+      try {
+        for (_iterator.s(); !(_step = _iterator.n()).done;) {
+          var item = _step.value;
+          move(item, top);
+        }
+      } catch (err) {
+        _iterator.e(err);
+      } finally {
+        _iterator.f();
+      }
+    });
+  });
+};
+parallax();
 
 /***/ }),
 
@@ -251,7 +295,28 @@ __webpack_require__.r(__webpack_exports__);
   \*********************************************/
 /***/ (() => {
 
-
+var headerScroll = function headerScroll() {
+  var $header = document.querySelector('.s-header');
+  var $body = document.querySelector('body');
+  var onScroll = function onScroll() {
+    var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    var headerHeight = $header.offsetHeight;
+    if (scrollTop > headerHeight) {
+      $body.style.paddingTop = "".concat(headerHeight, "px");
+      $header.classList.add('is-fixed');
+    } else {
+      $body.style.paddingTop = 0;
+      $header.classList.remove('is-fixed');
+    }
+  };
+  window.addEventListener('scroll', function () {
+    return onScroll();
+  });
+  window.addEventListener('resize', function () {
+    return onScroll();
+  });
+};
+headerScroll();
 
 /***/ }),
 

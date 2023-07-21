@@ -144,12 +144,12 @@ function handleMarquee() {
 	})
 }
 handleMarquee()
-import Swiper, { Navigation, Pagination } from 'swiper';
+import Swiper, { Navigation, Pagination } from 'swiper'
 const arrProductCarousel = document.querySelectorAll('.catalog')
 arrProductCarousel.forEach($sCarousel => {
-	const $prev = $sCarousel.querySelector('.swiper-button-prev');
-	const $next = $sCarousel.querySelector('.swiper-button-next');
-	const $carousel = $sCarousel.querySelector('.swiper');
+	const $prev = $sCarousel.querySelector('.swiper-button-prev')
+	const $next = $sCarousel.querySelector('.swiper-button-next')
+	const $carousel = $sCarousel.querySelector('.swiper')
 	// eslint-disable-next-line no-unused-vars
 	const swiper = new Swiper($carousel, {
 		modules: [Navigation, Pagination],
@@ -174,8 +174,8 @@ arrProductCarousel.forEach($sCarousel => {
 			nextEl: $next,
 			prevEl: $prev
 		}
-	});
-});
+	})
+})
 // eslint-disable-next-line no-unused-vars
 const swiper = new Swiper(document.querySelector('.bottom-carousel  .swiper'), {
 	modules: [Navigation, Pagination],
@@ -192,4 +192,37 @@ const swiper = new Swiper(document.querySelector('.bottom-carousel  .swiper'), {
 			spaceBetween: 21
 		}
 	}
-});
+})
+
+const parallax = () => {
+	const arrSection = document.querySelectorAll('.section-parallax')
+
+	const move = (item, scroll) => {
+		let speed = item.dataset.speed || 1
+		let movementSize = scroll / 20 * speed
+		if (item.classList.contains('top')) {
+			item.style.marginTop = `-${movementSize}px`;
+		}
+		if (item.classList.contains('bottom')) {
+			item.style.marginTop = `${movementSize}px`;
+		}
+		if (item.classList.contains('left')) {
+			item.style.marginLeft = `-${movementSize}px`;
+		}
+		if (item.classList.contains('right')) {
+			item.style.marginLeft = `${movementSize}px`;
+		}
+		// item.style[`margin${direction}`] = `${movementSize}px`;
+	}
+	window.addEventListener('scroll', () => {
+		arrSection.forEach($section => {
+			const arrEls = $section.querySelectorAll('.parallax')
+			// eslint-disable-next-line no-unused-vars
+			let top = (window.pageYOffset || $section.scrollTop) - ($section.clientTop || 0)
+			for (const item of arrEls) {
+				move(item, top)
+			}
+		})
+	})
+}
+parallax()

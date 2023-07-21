@@ -1805,13 +1805,115 @@ body {
     .section .desc-center img {
       max-width: 100%; }
   .section.section-3 {
-    margin-top: -2.5rem; }
+    margin-top: -2.5rem;
+    position: relative; }
+    .section.section-3 .parallax {
+      position: absolute; }
+      .section.section-3 .parallax.parallax-1 {
+        width: 9.47917%;
+        height: 15.69507%;
+        left: 20.83333%;
+        top: 36.68161%; }
+      .section.section-3 .parallax.parallax-2 {
+        width: 10%;
+        height: 14.61883%;
+        left: 59.375%;
+        top: 22.42152%; }
+      .section.section-3 .parallax.parallax-3 {
+        width: 6.51042%;
+        height: 14.34978%;
+        left: 67.08333%;
+        top: 37.66816%; }
+      .section.section-3 .parallax.parallax-4 {
+        width: 10.625%;
+        height: 14.97758%;
+        left: 26.92708%;
+        top: 17.93722%; }
+      .section.section-3 .parallax.parallax-5 {
+        width: 13.85417%;
+        height: 19.28251%;
+        left: 62.86458%;
+        top: 68.52018%; }
+      .section.section-3 .parallax.parallax-6 {
+        width: 15.36458%;
+        height: 19.19283%;
+        left: 15.05208%;
+        top: 5.29148%; }
+      .section.section-3 .parallax.parallax-7 {
+        width: 10%;
+        height: 15.42601%;
+        left: 30.52083%;
+        top: 64.30493%; }
     @media (max-width: 767px) {
       .section.section-3 .bg {
         object-position: 75% bottom; } }
-  @media (max-width: 767px) {
-    .section.section-4 .bg {
-      object-position: 80% bottom; } }
+  .section.section-4 {
+    margin-top: 10rem; }
+    @media (max-width: 767px) {
+      .section.section-4 .bg {
+        object-position: 80% bottom; } }
+    .section.section-4 .parallax {
+      position: absolute; }
+      .section.section-4 .parallax.parallax-1 {
+        width: 9.27083%;
+        height: 13.56978%;
+        top: 84.8111%;
+        left: 60.10417%; }
+      .section.section-4 .parallax.parallax-2 {
+        width: 3.90625%;
+        height: 5.70547%;
+        top: 9.40632%;
+        left: 39.0625%; }
+      .section.section-4 .parallax.parallax-3 {
+        width: 3.95833%;
+        height: 5.93678%;
+        top: 30.30069%;
+        left: 46.35417%; }
+      .section.section-4 .parallax.parallax-4 {
+        width: 3.59375%;
+        height: 5.24287%;
+        top: 22.05089%;
+        left: 52.08333%; }
+      .section.section-4 .parallax.parallax-5 {
+        width: 5.625%;
+        height: 8.40401%;
+        top: -37.77949%;
+        left: 78.125%; }
+      .section.section-4 .parallax.parallax-6 {
+        width: 9.27083%;
+        height: 11.87355%;
+        top: 18.81264%;
+        left: 65.57292%; }
+      .section.section-4 .parallax.parallax-7 {
+        width: 9.42708%;
+        height: 16.65382%;
+        top: 73.70856%;
+        left: 15.98958%; }
+      .section.section-4 .parallax.parallax-8 {
+        width: 13.80208%;
+        height: 19.58365%;
+        top: 27.75636%;
+        left: 36.14583%; }
+      .section.section-4 .parallax.parallax-9 {
+        width: 14.32292%;
+        height: 13.87818%;
+        top: 61.9121%;
+        left: 41.66667%; }
+      .section.section-4 .parallax.parallax-10 {
+        width: 12.08333%;
+        height: 7.4017%;
+        top: 44.02467%;
+        left: 93.75%; }
+      .section.section-4 .parallax.parallax-11 {
+        width: 15.05208%;
+        height: 17.81033%;
+        top: 15.5744%;
+        left: 6.77083%; }
+      .section.section-4 .parallax.parallax-12 {
+        width: 12.39583%;
+        height: 11.64225%;
+        top: 59.21357%;
+        left: 32.13542%; }
 
 .running-line {
   margin-top: -1.5rem;
@@ -1921,8 +2023,26 @@ body {
 .s-header {
   flex: 0 0 auto;
   padding-bottom: 1.8rem;
+  z-index: 100;
   position: relative;
-  z-index: 100; }
+  top: 0;
+  left: 0;
+  width: 100%; }
+  .s-header.is-fixed {
+    position: fixed;
+    animation-fill-mode: both;
+    animation-duration: 0.3s;
+    animation-name: fadeInDown; }
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0); }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1); } }
   @media (max-width: 767px) {
     .s-header {
       padding: 1rem 0; } }

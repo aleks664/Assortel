@@ -21,11 +21,15 @@ block content
 				li качественная продукция
 				li отборные фрукты и овощи
 
-	.section.section-3
-		+picture({
-			img: 'images/bg-3.png',
-			class: 'bg'
-		})
+	.section.section-3.section-parallax
+		img(src="images/bg-3.png" loading="lazy" class="bg")
+		img(src="images/p-1.png" loading="lazy" class="parallax parallax-1" data-speed="3").left.top
+		img(src="images/p-2.png" loading="lazy" class="parallax parallax-2" data-speed='2').right.top
+		img(src="images/p-3.png" loading="lazy" class="parallax parallax-3"  data-speed="5").right.top
+		img(src="images/p-4.png" loading="lazy" class="parallax parallax-4" data-speed="5").left.bottom
+		img(src="images/p-5.png" loading="lazy" class="parallax parallax-5" data-speed="5").right
+		img(src="images/p-6.png" loading="lazy" class="parallax parallax-6" data-speed="1").left.top
+		img(src="images/p-7.png" loading="lazy" class="parallax parallax-7" data-speed="3").left
 	mixin catalog(data)
 		.catalog&attributes(attributes)
 			.container
@@ -84,11 +88,21 @@ block content
 			}
 		]
 	})
-	.section.section-4
-		+picture({
-			img: 'images/bg-6.png',
-			class: 'bg'
-		})
+	.section.section-4.section-parallax
+		img(src="images/bg-6.png" loading="lazy" class="bg")
+		img(src="images/p-6-10.png" loading="lazy" class="parallax parallax-10" data-speed="8").left
+		img(src="images/p-6-8.png" loading="lazy" class="parallax parallax-8" data-speed="3").bottom
+		img(src="images/p-6-1.png" loading="lazy" class="parallax parallax-1" data-speed="3").left.top
+		img(src="images/p-6-2.png" loading="lazy" class="parallax parallax-2" data-speed="1").left.bottom
+		img(src="images/p-6-3.png" loading="lazy" class="parallax parallax-3" data-speed="3").left.bottom
+		img(src="images/p-6-4.png" loading="lazy" class="parallax parallax-4" data-speed="3").right
+		img(src="images/p-6-5.png" loading="lazy" class="parallax parallax-5" data-speed="10").left.bottom
+		img(src="images/p-6-6.png" loading="lazy" class="parallax parallax-6" data-speed="7").left
+		img(src="images/p-6-9.png" loading="lazy" class="parallax parallax-9" data-speed="6").right
+		img(src="images/p-6-11.png" loading="lazy" class="parallax parallax-11" data-speed="2").right.bottom
+		img(src="images/p-6-12.png" loading="lazy" class="parallax parallax-12" data-speed="3").top
+
+
 	+catalog({
 		ttl: 'Плодовая консервация',
 		products: [

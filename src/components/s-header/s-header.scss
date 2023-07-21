@@ -1,8 +1,29 @@
 .s-header {
 	flex: 0 0 auto;
 	padding-bottom: 18px;
-	position: relative;
 	z-index: 100;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	&.is-fixed {
+		position: fixed;
+		animation-fill-mode: both;
+		animation-duration: $animation-base-time;
+		animation-name: fadeInDown;
+	}
+	@keyframes fadeInDown {
+		0% {
+			opacity: 0;
+			transform: translateY(-100%);
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0);
+		}
+		100% {
+			opacity: 1;
+			transform: translateY(0);
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1)
+		}
+	}
 	@include media-breakpoint-down(sm) {
 		padding: 10px 0;
 
