@@ -1805,53 +1805,101 @@ body {
     .section .desc-center img {
       max-width: 100%; }
   .section.section-3 {
-    margin-top: -2.5rem;
+    margin-top: -10rem;
     position: relative; }
+    @media (min-width: 1921px) {
+      .section.section-3 {
+        margin-top: -15rem; } }
+    @media (max-width: 767px) {
+      .section.section-3 {
+        height: 43.3rem; } }
+    @media (max-width: 767px) {
+      .section.section-3 .inner {
+        position: absolute;
+        width: 76.8rem;
+        left: 50%;
+        top: 0;
+        transform: translateX(-59%); } }
+    .section.section-3 .pot-3 {
+      position: absolute;
+      width: 32.44792%;
+      height: 65.01305%;
+      left: 56.77083%;
+      top: 32.28895%; }
+    .section.section-3 .pot-4 {
+      position: absolute;
+      width: 29.94792%;
+      height: 56.13577%;
+      left: 36.30208%;
+      top: 12.27154%; }
     .section.section-3 .parallax {
       position: absolute; }
       .section.section-3 .parallax.parallax-1 {
         width: 9.47917%;
-        height: 15.69507%;
+        height: 15.23064%;
         left: 20.83333%;
-        top: 36.68161%; }
+        top: 35.59617%; }
       .section.section-3 .parallax.parallax-2 {
         width: 10%;
-        height: 14.61883%;
+        height: 14.18625%;
         left: 59.375%;
-        top: 22.42152%; }
+        top: 21.75805%; }
       .section.section-3 .parallax.parallax-3 {
         width: 6.51042%;
-        height: 14.34978%;
+        height: 13.92515%;
         left: 67.08333%;
-        top: 37.66816%; }
+        top: 36.55352%; }
       .section.section-3 .parallax.parallax-4 {
         width: 10.625%;
-        height: 14.97758%;
+        height: 14.53438%;
         left: 26.92708%;
-        top: 17.93722%; }
+        top: 41.77546%; }
       .section.section-3 .parallax.parallax-5 {
         width: 13.85417%;
-        height: 19.28251%;
+        height: 18.71192%;
         left: 62.86458%;
-        top: 68.52018%; }
+        top: 66.4926%; }
       .section.section-3 .parallax.parallax-6 {
         width: 15.36458%;
-        height: 19.19283%;
-        left: 15.05208%;
-        top: 5.29148%; }
+        height: 18.62489%;
+        left: 16.66667%;
+        top: 5.1349%; }
       .section.section-3 .parallax.parallax-7 {
         width: 10%;
-        height: 15.42601%;
+        height: 14.96954%;
         left: 30.52083%;
-        top: 64.30493%; }
+        top: 62.40209%; }
     @media (max-width: 767px) {
       .section.section-3 .bg {
         object-position: 75% bottom; } }
   .section.section-4 {
     margin-top: 10rem; }
     @media (max-width: 767px) {
+      .section.section-4 {
+        height: 51.9rem; } }
+    @media (max-width: 767px) {
+      .section.section-4 .inner {
+        position: absolute;
+        width: 76.8rem;
+        height: 51.9rem;
+        top: 0;
+        left: 50%;
+        transform: translateX(-63%); } }
+    @media (max-width: 767px) {
       .section.section-4 .bg {
         object-position: 80% bottom; } }
+    .section.section-4 .pot-1 {
+      position: absolute;
+      width: 26.97917%;
+      height: 47.26291%;
+      top: 15.95991%;
+      left: 39.53125%; }
+    .section.section-4 .pot-2 {
+      position: absolute;
+      width: 28.4375%;
+      height: 53.5081%;
+      top: 30.8404%;
+      left: 58.54167%; }
     .section.section-4 .parallax {
       position: absolute; }
       .section.section-4 .parallax.parallax-1 {
@@ -1916,12 +1964,13 @@ body {
         left: 32.13542%; }
 
 .running-line {
-  margin-top: -1.5rem;
   position: relative;
+  width: 100%;
   overflow: hidden;
-  background: url(../images/bg-2.png) center center no-repeat;
+  background: url(../images/bg-2.png) center center repeat-x;
   height: 11.4rem;
   color: #FFF;
+  transform: translateY(-50%);
   display: flex;
   align-items: center;
   white-space: nowrap;
@@ -1949,13 +1998,13 @@ body {
         margin-left: 10.5rem; } }
     .running-line li:before {
       content: '';
-      width: 1.6rem;
-      min-width: 1.6rem;
-      height: 1.6rem;
+      width: 1rem;
+      min-width: 1rem;
+      height: 1rem;
       display: block;
       border: 0.27rem solid;
       position: relative;
-      top: 0.1em;
+      top: 0.13em;
       border-radius: 100%;
       margin-right: 0.8rem; }
       @media (min-width: 768px) {
@@ -2022,12 +2071,14 @@ body {
  */
 .s-header {
   flex: 0 0 auto;
-  padding-bottom: 1.8rem;
   z-index: 100;
   position: relative;
   top: 0;
   left: 0;
   width: 100%; }
+  @media (min-width: 1400px) {
+    .s-header {
+      position: absolute; } }
   .s-header.is-fixed {
     position: fixed;
     animation-fill-mode: both;
@@ -2037,12 +2088,10 @@ body {
 @keyframes fadeInDown {
   0% {
     opacity: 0;
-    transform: translateY(-100%);
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0); }
+    transform: translateY(-100%); }
   100% {
     opacity: 1;
-    transform: translateY(0);
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1); } }
+    transform: translateY(0); } }
   @media (max-width: 767px) {
     .s-header {
       padding: 1rem 0; } }
@@ -2070,7 +2119,7 @@ body {
         max-width: 25.3rem; } }
     @media (min-width: 1200px) {
       .s-header .logo {
-        margin-left: 14.84375vw; } }
+        margin-left: 5.20833vw; } }
     .s-header .logo img {
       display: block;
       width: 100%; }
@@ -2084,7 +2133,9 @@ body {
         left: 0;
         width: 100%;
         background-color: #FFF;
-        font-size: 2.7rem; } }
+        font-size: 2.7rem;
+        transform: translateY(-1.8rem);
+        z-index: -3; } }
     @media (min-width: 768px) {
       .s-header nav {
         display: flex !important; } }
@@ -2143,6 +2194,10 @@ body {
       .s-header .languages {
         margin-right: 2.60417vw;
         margin-left: 10vw; } }
+    @media (min-width: 1872px) {
+      .s-header .languages {
+        margin-left: 3.5rem;
+        margin-right: -0.5rem; } }
     .s-header .languages .head {
       position: relative;
       z-index: 1;
@@ -2274,7 +2329,7 @@ body {
         width: 20.3rem; } }
     @media (min-width: 992px) {
       .s-footer .copy {
-        margin-left: 7.23958vw; } }
+        margin-left: 5.72917vw; } }
     .s-footer .copy:before {
       content: '© ';
       display: inline-block;
@@ -2284,14 +2339,16 @@ body {
           position: absolute;
           top: 0;
           right: 100%; } }
-  .s-footer .policy a {
-    color: inherit; }
-    .s-footer .policy a:hover {
-      text-decoration: none; }
-  @media (min-width: 768px) {
-    .s-footer .policy {
-      order: 2;
-      margin-left: 4.84375vw; } }
+  .s-footer .policy {
+    text-decoration: underline; }
+    .s-footer .policy a {
+      color: inherit; }
+      .s-footer .policy a:hover {
+        text-decoration: none; }
+    @media (min-width: 768px) {
+      .s-footer .policy {
+        order: 2;
+        margin-left: 6.51042vw; } }
   .s-footer .buy {
     width: 21.1rem;
     height: 4.8rem;

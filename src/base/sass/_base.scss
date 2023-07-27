@@ -62,51 +62,82 @@ body {
 
 	}
 	&.section-3 {
-		margin-top: -25px;
+		margin-top: -100px;
 		position: relative;
+		@media (min-width: 1921px) {
+			margin-top: -150px;
+		}
+		@include media-breakpoint-down(sm) {
+			height: 433px;
+
+		}
+		.inner {
+			@include media-breakpoint-down(sm) {
+				position: absolute;
+				width: 768px;
+				left: 50%;
+				top: 0;
+				transform: translateX(-59%);
+
+			}
+		}
+		.pot-3 {
+			position: absolute;
+			width: percentage(623/1920);
+			height: percentage(747/1149);
+			left: percentage(1090/1920);
+			top: percentage(371/1149);
+		}
+		.pot-4 {
+			position: absolute;
+			width: percentage(575/1920);
+			height: percentage(645/1149);
+			left: percentage(697/1920);
+			top: percentage(141/1149);
+		}
 		.parallax {
 			position: absolute;
 			&.parallax-1 {
 				width: percentage(182/1920);
-				height: percentage(175/1115);
+				height: percentage(175/1149);
 				left: percentage(400/1920);
-				top: percentage(409/1115);
+				top: percentage(409/1149);
 			}
 			&.parallax-2 {
 				width: percentage(192/1920);
-				height: percentage(163/1115);
+				height: percentage(163/1149);
 				left: percentage(1140/1920);
-				top: percentage(250/1115);
+				top: percentage(250/1149);
 			}
 			&.parallax-3 {
 				width: percentage(125/1920);
-				height: percentage(160/1115);
+				height: percentage(160/1149);
 				left: percentage(1288/1920);
-				top: percentage(420/1115);
+				top: percentage(420/1149);
 			}
 			&.parallax-4 {
 				width: percentage(204/1920);
-				height: percentage(167/1115);
+				height: percentage(167/1149);
 				left: percentage(517/1920);
-				top: percentage(200/1115);
+				top: percentage(480/1149);
 			}
 			&.parallax-5 {
 				width: percentage(266/1920);
-				height: percentage(215/1115);
+				height: percentage(215/1149);
 				left: percentage(1207/1920);
-				top: percentage(764/1115);
+				top: percentage(764/1149);
 			}
 			&.parallax-6 {
 				width: percentage(295/1920);
-				height: percentage(214/1115);
-				left: percentage(289/1920);
-				top: percentage(59/1115);
+				height: percentage(214/1149);
+				left: percentage(320/1920);
+				top: percentage(59/1149);
 			}
 			&.parallax-7 {
 				width: percentage(192/1920);
-				height: percentage(172/1115);
+				height: percentage(172/1149);
 				left: percentage(586/1920);
-				top: percentage(717/1115);
+				top: percentage(717/1149);
 			}
 
 		}
@@ -119,9 +150,37 @@ body {
 	&.section-4 {
 		margin-top: 100px;
 		@include media-breakpoint-down(sm) {
+			height: 519px;
+		}
+		.inner {
+			@include media-breakpoint-down(sm) {
+				position: absolute;
+				width: 768px;
+				height: 519px;
+				top: 0;
+				left: 50%;
+				transform: translateX(-63%);
+			}
+		}
+		@include media-breakpoint-down(sm) {
 			.bg {
 				object-position: 80% bottom;
 			}
+		}
+
+		.pot-1 {
+			position: absolute;
+			width: percentage(518/1920);
+			height: percentage(613/1297);
+			top: percentage(207/1297);
+			left: percentage(759/1920);
+		}
+		.pot-2 {
+			position: absolute;
+			width: percentage(546/1920);
+			height: percentage(694/1297);
+			top: percentage(400/1297);
+			left: percentage(1124/1920);
 		}
 		.parallax {
 			position: absolute;
@@ -201,19 +260,19 @@ body {
 	}
 }
 .running-line {
-	margin-top: -15px;
 	position: relative;
+	width: 100%;
 	overflow: hidden;
-	background: url(../images/bg-2.png) center center no-repeat;
+	background: url(../images/bg-2.png) center center repeat-x;
 	height: 114px;
 	color: #FFF;
+	transform: translateY(-50%);
 	display: flex;
 	align-items: center;
 	white-space: nowrap;
 	font-weight: 300;
 	font-size: 27px;
 	z-index: 5;
-
 	@include media-breakpoint-up(md) {
 		font-size: 46px;
 	}
@@ -237,13 +296,13 @@ body {
 		}
 		&:before {
 			content: '';
-			width: 16px;
-			min-width: 16px;
-			height: 16px;
+			width: 10px;
+			min-width: 10px;
+			height: 10px;
 			display: block;
 			border: 2.7px solid;
 			position: relative;
-			top: 0.1em;
+			top: 0.13em;
 			border-radius: 100%;
 			margin-right: 8px;
 			@include media-breakpoint-up(md) {

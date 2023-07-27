@@ -55,7 +55,7 @@
 			width: 203px;
 		}
 		@include media-breakpoint-up(lg) {
-			margin-left: (139/1920*100vw);
+			margin-left: (110/1920*100vw);
 		}
 		&:before {
 			content: '© ';
@@ -69,6 +69,7 @@
 		}
 	}
 	.policy {
+		text-decoration: underline;
 		a {
 			color: inherit;
 			&:hover {
@@ -77,7 +78,7 @@
 		}
 		@include media-breakpoint-up(md) {
 			order: 2;
-			margin-left: (93/1920*100vw);
+			margin-left: (125/1920*100vw);
 		}
 	}
 	.buy {

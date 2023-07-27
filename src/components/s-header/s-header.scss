@@ -1,11 +1,13 @@
 .s-header {
 	flex: 0 0 auto;
-	padding-bottom: 18px;
 	z-index: 100;
 	position: relative;
 	top: 0;
 	left: 0;
 	width: 100%;
+	@include media-breakpoint-up(xxl) {
+		position: absolute;
+	}
 	&.is-fixed {
 		position: fixed;
 		animation-fill-mode: both;
@@ -52,7 +54,7 @@
 			max-width: 253px;
 		}
 		@include media-breakpoint-up(xl) {
-			margin-left: (285/1920*100vw);
+			margin-left: (100/1920*100vw);
 		}
 		img {
 			display: block;
@@ -69,6 +71,8 @@
 			width: 100%;
 			background-color: #FFF;
 			font-size: 27px;
+			transform: translateY(-18px);
+			z-index: -3;
 		}
 		@include media-breakpoint-up(md) {
 			display: flex!important;
@@ -139,6 +143,10 @@
 		@include media-breakpoint-up(xl) {
 			margin-right: (50/1920*100vw);
 			margin-left: (192/1920*100vw);
+		}
+		@include media-breakpoint-up(xxxl) {
+			margin-left: 35px;
+			margin-right: -5px;
 		}
 		.head {
 			position: relative;
