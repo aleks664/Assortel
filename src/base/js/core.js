@@ -94,7 +94,8 @@ anchors.forEach($button => {
 			if (display === 'none') {
 				$el.style.display = 'block'
 			}
-			const elPosition = $el.getBoundingClientRect().top
+			const headerH = document.querySelector('.s-header').offsetHeight;
+			const elPosition = $el.getBoundingClientRect().top - headerH - 20;
 			if (display === 'none') {
 				$el.style.display = 'none'
 			}

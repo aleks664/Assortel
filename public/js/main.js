@@ -134,7 +134,8 @@ anchors.forEach(function ($button) {
       if (display === 'none') {
         $el.style.display = 'block';
       }
-      var elPosition = $el.getBoundingClientRect().top;
+      var headerH = document.querySelector('.s-header').offsetHeight;
+      var elPosition = $el.getBoundingClientRect().top - headerH - 20;
       if (display === 'none') {
         $el.style.display = 'none';
       }
