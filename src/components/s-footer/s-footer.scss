@@ -78,7 +78,12 @@
 		}
 		@include media-breakpoint-up(md) {
 			order: 2;
-			margin-left: (125/1920*100vw);
+			flex: 1;
+			text-align: center;
+			.in {
+				display: inline-block;
+				text-align: left;
+			}
 		}
 	}
 	.buy {

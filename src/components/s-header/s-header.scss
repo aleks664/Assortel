@@ -59,6 +59,10 @@
 		img {
 			display: block;
 			width: 100%;
+			@include media-breakpoint-up(lg) {
+				margin-top: -5px;
+				margin-bottom: 5px;
+			}
 		}
 	}
 	nav {
