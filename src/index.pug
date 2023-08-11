@@ -5,10 +5,14 @@ append variables
 	- var pageUrl = '/'
 block content
 	.section.section-main
-		+picture({
-			img: 'images/bg-1.png',
-			class: 'bg'
-		})
+
+		picture
+
+			source(media='(max-width: 768px)' srcset='images/main-banner-m.webp' type='image/webp')
+			source(media='(min-width: 769px)' srcset='images/bg-1.webp' type='image/webp')
+			source(media='(min-width: 769px)' srcset='images/bg-1.png' type='image/jpeg')
+			img.bg(src='images/s-main-banner/bg-1.webp' srcset='images/s-main-banner/images/bg-1.png' )
+
 		.desc-center
 			.container
 				img(src="images/main-banner.svg" loading="loading")
@@ -117,31 +121,43 @@ block content
 			},
 			{
 				img: 'images/img-6.png',
-				ttl: 'Земляника протёртая<br>с сахаром, 300 г'
+				ttl: 'Земляника протёртая<br>с сахаром, 400 г'
+			},
+			{
+				img: 'images/img-6-1.png',
+				ttl: 'Земляника протёртая<br>с сахаром, 420 г'
+			},
+			{
+				img: 'images/img-6-2.png',
+				ttl: 'Ежевика протертая  <br>с сахаром,400 мл'
 			},
 			{
 				img: 'images/img-7.png',
-				ttl: 'Чёрная смородина<br>с сахаром, 300 г'
+				ttl: 'Чёрная смородина<br>с сахаром, 420 г'
 			},
 			{
 				img: 'images/img-8.png',
 				ttl: 'Лимон протёртый<br>с сахаром, 400 г'
 			},
 			{
-				img: 'images/img-5.png',
-				ttl: 'Абрикос протёртый<br>с сахаром, 400 г'
+				img: 'images/img-9.png',
+				ttl: 'Малина протертая  <br>с сахаром, 400 г'
 			},
 			{
-				img: 'images/img-6.png',
-				ttl: 'Земляника протёртая<br>с сахаром, 300 г'
+				img: 'images/img-10.png',
+				ttl: 'Аджика домашняя<br> 520 г '
 			},
 			{
-				img: 'images/img-7.png',
-				ttl: 'Чёрная смородина<br>с сахаром, 300 г'
+				img: 'images/img-11.png',
+				ttl: 'Икра из кабачков <br> 520 г '
 			},
 			{
-				img: 'images/img-8.png',
-				ttl: 'Лимон протёртый<br>с сахаром, 400 г'
+				img: 'images/img-12.png',
+				ttl: 'Солянка с фасолью<br> 520 г '
+			},
+			{
+				img: 'images/img-13.png',
+				ttl: 'фасоль печеная<br> по-домашнему 530 г '
 			}
 
 		]
