@@ -1831,16 +1831,28 @@ body {
         transform: translateX(-63%); } }
     .section.section-3 .pot-3 {
       position: absolute;
-      width: 32.44792%;
-      height: 65.01305%;
-      left: 56.77083%;
+      width: 22.65625%;
+      height: 45.43081%;
+      left: 60.9375%;
       top: 32.28895%; }
+      @media (min-width: 768px) {
+        .section.section-3 .pot-3 {
+          width: 32.44792%;
+          height: 65.01305%;
+          left: 56.77083%;
+          top: 32.28895%; } }
     .section.section-3 .pot-4 {
       position: absolute;
-      width: 29.94792%;
-      height: 56.13577%;
-      left: 36.30208%;
-      top: 12.27154%; }
+      width: 24.21875%;
+      height: 45.43081%;
+      left: 43.22917%;
+      top: 19.23412%; }
+      @media (min-width: 768px) {
+        .section.section-3 .pot-4 {
+          left: 36.30208%;
+          top: 12.27154%;
+          width: 29.94792%;
+          height: 56.13577%; } }
     .section.section-3 .parallax {
       position: absolute; }
       .section.section-3 .parallax.parallax-1 {
@@ -1899,16 +1911,28 @@ body {
         object-position: 80% bottom; } }
     .section.section-4 .pot-1 {
       position: absolute;
-      width: 26.97917%;
-      height: 47.26291%;
-      top: 15.95991%;
-      left: 39.53125%; }
+      width: 22.96875%;
+      height: 40.24672%;
+      top: 14.41789%;
+      left: 43.17708%; }
+      @media (min-width: 768px) {
+        .section.section-4 .pot-1 {
+          width: 26.97917%;
+          height: 47.26291%;
+          top: 15.95991%;
+          left: 39.53125%; } }
     .section.section-4 .pot-2 {
       position: absolute;
-      width: 28.4375%;
-      height: 53.5081%;
-      top: 30.8404%;
-      left: 58.54167%; }
+      width: 21.35417%;
+      height: 40.24672%;
+      top: 23.1303%;
+      left: 61.66667%; }
+      @media (min-width: 768px) {
+        .section.section-4 .pot-2 {
+          width: 28.4375%;
+          height: 53.5081%;
+          top: 30.8404%;
+          left: 58.54167%; } }
     .section.section-4 .parallax {
       position: absolute; }
       .section.section-4 .parallax.parallax-1 {
@@ -2003,24 +2027,26 @@ body {
   .running-line li {
     position: relative;
     margin-left: 2.5rem;
-    padding-left: 1.8rem;
     line-height: 1; }
     @media (min-width: 992px) {
       .running-line li {
-        padding-left: 2.6rem;
         margin-left: 10.5rem; } }
     .running-line li:before {
       content: '';
-      width: 1rem;
-      min-width: 1rem;
-      height: 1rem;
+      width: 0.6rem;
+      min-width: 0.6rem;
+      height: 0.6rem;
       border: 0.27rem solid;
       display: inline-block;
       border-radius: 100%;
-      margin-right: 0.8rem; }
+      margin-right: 0.8rem;
+      vertical-align: middle; }
       @media (min-width: 768px) {
         .running-line li:before {
-          margin-right: 1.6rem; } }
+          margin-right: 1.6rem;
+          width: 1rem;
+          min-width: 1rem;
+          height: 1rem; } }
 
 .catalog {
   color: #8ACB00; }

@@ -95,17 +95,29 @@ body {
 		}
 		.pot-3 {
 			position: absolute;
-			width: percentage(623/1920);
-			height: percentage(747/1149);
-			left: percentage(1090/1920);
+			width: percentage(435/1920);
+			height: percentage(522/1149);
+			left: percentage(1170/1920);
 			top: percentage(371/1149);
+			@include media-breakpoint-up(md) {
+				width: percentage(623/1920);
+				height: percentage(747/1149);
+				left: percentage(1090/1920);
+				top: percentage(371/1149);
+			}
 		}
 		.pot-4 {
 			position: absolute;
-			width: percentage(575/1920);
-			height: percentage(645/1149);
-			left: percentage(697/1920);
-			top: percentage(141/1149);
+			width: percentage(465/1920);
+			height: percentage(522/1149);
+			left: percentage(830/1920);
+			top: percentage(221/1149);
+			@include media-breakpoint-up(md) {
+				left: percentage(697/1920);
+				top: percentage(141/1149);
+				width: percentage(575/1920);
+				height: percentage(645/1149);
+			}
 		}
 		.parallax {
 			position: absolute;
@@ -182,17 +194,29 @@ body {
 
 		.pot-1 {
 			position: absolute;
-			width: percentage(518/1920);
-			height: percentage(613/1297);
-			top: percentage(207/1297);
-			left: percentage(759/1920);
+			width: percentage(441/1920);
+			height: percentage(522/1297);
+			top: percentage(187/1297);
+			left: percentage(829/1920);
+			@include media-breakpoint-up(md) {
+				width: percentage(518/1920);
+				height: percentage(613/1297);
+				top: percentage(207/1297);
+				left: percentage(759/1920);
+			}
 		}
 		.pot-2 {
 			position: absolute;
-			width: percentage(546/1920);
-			height: percentage(694/1297);
-			top: percentage(400/1297);
-			left: percentage(1124/1920);
+			width: percentage(410/1920);
+			height: percentage(522/1297);
+			top: percentage(300/1297);
+			left: percentage(1184/1920);
+			@include media-breakpoint-up(md) {
+				width: percentage(546/1920);
+				height: percentage(694/1297);
+				top: percentage(400/1297);
+				left: percentage(1124/1920);
+			}
 		}
 		.parallax {
 			position: absolute;
@@ -304,23 +328,25 @@ body {
 	li {
 		position: relative;
 		margin-left: 25px;
-		padding-left: 18px;
 		line-height: 1;
 		@include media-breakpoint-up(lg) {
-			padding-left: 26px;
 			margin-left: 105px;
 		}
 		&:before {
 			content: '';
-			width: 10px;
-			min-width: 10px;
-			height: 10px;
+			width: 6px;
+			min-width: 6px;
+			height: 6px;
 			border: 2.7px solid;
 			display: inline-block;
 			border-radius: 100%;
 			margin-right: 8px;
+			vertical-align: middle;
 			@include media-breakpoint-up(md) {
 				margin-right: 16px;
+				width: 10px;
+				min-width: 10px;
+				height: 10px;
 			}
 		}
 	}
