@@ -1787,6 +1787,12 @@ body {
   text-align: center; }
   .section.section-main {
     margin-top: -3.5rem; }
+    @media (max-width: 575px) {
+      .section.section-main {
+        margin-bottom: -1rem; } }
+    @media (min-width: 1400px) {
+      .section.section-main {
+        padding-top: 7.2rem; } }
   .section .bg {
     display: block;
     width: 100%; }
@@ -1807,6 +1813,9 @@ body {
   .section.section-3 {
     margin-top: -10rem;
     position: relative; }
+    @media (max-width: 767px) {
+      .section.section-3 {
+        margin-top: -1.9rem; } }
     @media (min-width: 1921px) {
       .section.section-3 {
         margin-top: -15rem; } }
@@ -1980,6 +1989,9 @@ body {
   @media (min-width: 768px) {
     .running-line {
       font-size: 4.6rem; } }
+  @media (max-width: 767px) {
+    .running-line {
+      transform: none; } }
   .running-line .inner {
     display: flex; }
   .running-line ul {

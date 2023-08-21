@@ -19,6 +19,7 @@ body {
 	@include media-breakpoint-up(lg) {
 		font-size: 27px;
 	}
+
 }
 * {
 	box-sizing: border-box;
@@ -41,6 +42,13 @@ body {
 	text-align: center;
 	&.section-main {
 		margin-top: -35px;
+		@include media-breakpoint-down(xsm) {
+			margin-bottom: -10px;
+		}
+		@include media-breakpoint-up(xxl) {
+			padding-top: 72px;
+
+		}
 	}
 	.bg {
 		display: block;
@@ -64,6 +72,10 @@ body {
 	&.section-3 {
 		margin-top: -100px;
 		position: relative;
+		@include media-breakpoint-down(sm) {
+			margin-top: -19px;
+
+		}
 		@media (min-width: 1921px) {
 			margin-top: -150px;
 		}
@@ -275,6 +287,9 @@ body {
 	z-index: 5;
 	@include media-breakpoint-up(md) {
 		font-size: 46px;
+	}
+	@include media-breakpoint-down(sm) {
+		transform: none;
 	}
 	.inner {
 		display: flex;
