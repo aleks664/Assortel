@@ -303,10 +303,11 @@ body {
 	}
 	li {
 		position: relative;
-		display: flex;
-		align-items: center;
 		margin-left: 25px;
+		padding-left: 18px;
+		line-height: 1;
 		@include media-breakpoint-up(lg) {
+			padding-left: 26px;
 			margin-left: 105px;
 		}
 		&:before {
@@ -314,15 +315,12 @@ body {
 			width: 10px;
 			min-width: 10px;
 			height: 10px;
-			display: block;
 			border: 2.7px solid;
-			position: relative;
-			top: 0.13em;
+			display: inline-block;
 			border-radius: 100%;
 			margin-right: 8px;
 			@include media-breakpoint-up(md) {
 				margin-right: 16px;
-
 			}
 		}
 	}
