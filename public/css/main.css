@@ -1860,6 +1860,9 @@ body {
         height: 15.23064%;
         left: 20.83333%;
         top: 44.29939%; }
+        @media (max-width: 767px) {
+          .section.section-3 .parallax.parallax-1 {
+            transform: translate(380%, -150%); } }
       .section.section-3 .parallax.parallax-2 {
         width: 10%;
         height: 14.18625%;
@@ -1890,6 +1893,9 @@ body {
         height: 14.96954%;
         left: 30.52083%;
         top: 62.40209%; }
+        @media (max-width: 767px) {
+          .section.section-3 .parallax.parallax-7 {
+            transform: translate(350%, 50%); } }
     @media (max-width: 767px) {
       .section.section-3 .bg {
         object-position: 75% bottom; } }
@@ -1940,6 +1946,9 @@ body {
         height: 13.56978%;
         top: 84.8111%;
         left: 60.10417%; }
+        @media (max-width: 767px) {
+          .section.section-4 .parallax.parallax-1 {
+            transform: translate(200%, -322%); } }
       .section.section-4 .parallax.parallax-2 {
         width: 3.90625%;
         height: 5.70547%;
@@ -1955,6 +1964,9 @@ body {
         height: 5.24287%;
         top: 22.05089%;
         left: 52.08333%; }
+        @media (max-width: 767px) {
+          .section.section-4 .parallax.parallax-4 {
+            transform: translate(55%, -256%); } }
       .section.section-4 .parallax.parallax-5 {
         width: 5.625%;
         height: 8.40401%;
@@ -1975,6 +1987,9 @@ body {
         height: 19.58365%;
         top: 27.75636%;
         left: 36.14583%; }
+        @media (max-width: 767px) {
+          .section.section-4 .parallax.parallax-8 {
+            transform: translate(71%, -130%); } }
       .section.section-4 .parallax.parallax-9 {
         width: 14.32292%;
         height: 13.87818%;
@@ -1985,6 +2000,9 @@ body {
         height: 7.4017%;
         top: 44.02467%;
         left: 93.75%; }
+        @media (max-width: 767px) {
+          .section.section-4 .parallax.parallax-10 {
+            transform: translate(329%, 103%); } }
       .section.section-4 .parallax.parallax-11 {
         width: 15.05208%;
         height: 17.81033%;
