@@ -135,12 +135,18 @@ body {
 				height: percentage(163/1149);
 				left: percentage(1140/1920);
 				top: percentage(250/1149);
+				@include media-breakpoint-down(sm) {
+					transform: translate(100%, -50%);
+				}
 			}
 			&.parallax-3 {
 				width: percentage(125/1920);
 				height: percentage(160/1149);
 				left: percentage(1288/1920);
 				top: percentage(420/1149);
+				@include media-breakpoint-down(sm) {
+					transform: translate(0%, 50%);
+				}
 			}
 			&.parallax-4 {
 				width: percentage(204/1920);

@@ -1868,11 +1868,17 @@ body {
         height: 14.18625%;
         left: 59.375%;
         top: 21.75805%; }
+        @media (max-width: 767px) {
+          .section.section-3 .parallax.parallax-2 {
+            transform: translate(100%, -50%); } }
       .section.section-3 .parallax.parallax-3 {
         width: 6.51042%;
         height: 13.92515%;
         left: 67.08333%;
         top: 36.55352%; }
+        @media (max-width: 767px) {
+          .section.section-3 .parallax.parallax-3 {
+            transform: translate(0%, 50%); } }
       .section.section-3 .parallax.parallax-4 {
         width: 10.625%;
         height: 14.53438%;
